@@ -16,8 +16,10 @@ def train(en_mdl, de_mdl, pair_filename):
   with open(pair_filename, 'r') as pairs:
     for line in pairs:
       pair = line.split()
+      '''
       if float(pair[2]) < CONFIDENCE_THRESHOLD:
         continue
+      '''
 
       src_arr = en_mdl[pair[0]]
       src_arr.shape = (300, 1)
@@ -28,11 +30,12 @@ def train(en_mdl, de_mdl, pair_filename):
 
   x = tf.placeholder(tf.float32, shape=(300, 1), name='x')
   y = tf.placeholder(tf.float32, shape=(300, 1), name='y')
+  bias = tf.Variable(tf.zeros([300]))
 
   W = tf.Variable(tf.random_uniform([300, 300], -1.0, 1.0), name='W')
-  y_hat = tf.matmul(W, x, name='y_hat')
+  y_hat = tf.matmul(W, x, name='y_hat') + bias
 
-  loss = tf.reduce_mean(tf.square(tf.sub(y_hat, y)), name='loss')
+  loss = tf.reduce_mean(tf.square(tf.sub(y_hat , y)) + tf.nn.l2_loss(bias), name='loss')
   optimizer = tf.train.GradientDescentOptimizer(0.01)
   train = optimizer.minimize(loss)
 
@@ -48,7 +51,7 @@ def train(en_mdl, de_mdl, pair_filename):
 
     print('Sample vector pair...', source_training_set[0][:20], target_training_set[0][:20])
 
-    for epoch in range(50):
+    for epoch in range(10):
       for i in range(len(source_training_set)):
         model_loss = sess.run(train, feed_dict={
                                   x: source_training_set[i],
@@ -56,17 +59,19 @@ def train(en_mdl, de_mdl, pair_filename):
                                 })
 
         W_out = sess.run(W)
-        if i % 200 == 0:
+        bias_out = sess.run(bias)
+        if i % 500 == 0:
           print(epoch, i, 'Training %s' % pair_filename, W_out)
+          print(epoch, i, 'bias: ' % bias_out)
 
-    saver.save(sess, 'tmp/model.ckpt')
+    saver.save(sess, '../../saved-models/model-%s.ckpt' % pair_filename.replace('.', '_').replace('/', '_'))
 
   # performance test set, also vary epochs
 
   '''
   # loading
   with tf.Session() as sess:
-    saver.restore(sess, '../saved-models/model.ckpt')
+    saver.restore(sess, '../saved-models/model-%s.ckpt' % pair_filename.replace('.', '_').replace('/', '_'))
     W_out = sess.run(W)
   '''
 
@@ -75,12 +80,12 @@ def train(en_mdl, de_mdl, pair_filename):
 
 def evaluate(en_mdl, de_mdl, matrix, name):
   output_f = open('../output/predicted-translations-%s.txt' % name, 'w')
-  with open('../data/en-de-available-number2.dict', 'r') as f:
+  with open('../data/en-de-available-number.dict', 'r') as f:
     for line in f:
       tokens = line.split()
       src_dict = tokens[0]
       target_dict = tokens[1]
-      prob = tokens[2]
+      prob = 0
 
       src_arr = en_mdl[src_dict]
       src_arr.shape=(300, 1)
@@ -90,12 +95,12 @@ def evaluate(en_mdl, de_mdl, matrix, name):
 
       out_str = '%s %s %s %s\n' % (src_dict, de_mdl.similar_by_vector(target_vec), target_dict, prob)
       output_f.write(out_str) 
-  with open('../data/en-de-available-animal2.dict', 'r') as f:
+  with open('../data/en-de-available-animal.dict', 'r') as f:
     for line in f:
       tokens = line.split()
       src_dict = tokens[0]
       target_dict = tokens[1]
-      prob = tokens[2]
+      prob = 0
 
       src_arr = en_mdl[src_dict]
       src_arr.shape=(300, 1)
@@ -118,9 +123,9 @@ def main():
   de_mdl.init_sims(replace=True)
   print('finished loading de model')
 
-  overall_mat = train(en_mdl, de_mdl, '../data/en-de-available2.dict')
-  animal_mat = train(en_mdl, de_mdl, '../data/en-de-available-animal2.dict')
-  num_mat = train(en_mdl, de_mdl, '../data/en-de-available-number2.dict')
+  overall_mat = train(en_mdl, de_mdl, '../data/en-de-available.dict')
+  animal_mat = train(en_mdl, de_mdl, '../data/en-de-available-animal.dict')
+  num_mat = train(en_mdl, de_mdl, '../data/en-de-available-number.dict')
 
   print(overall_mat)
   print(animal_mat)

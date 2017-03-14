@@ -13,14 +13,16 @@ def main():
   lower_dict_en_vocab = { e.lower() : e for e in en_mdl.vocab }
   lower_dict_de_vocab = { e.lower() : e for e in de_mdl.vocab }
 
+  out_f = open('../data/en-de-available.dict', 'w')
   # does not ever find the phrases for which there are underscores.
   with open('../data/en-de.dict', 'r') as f:
     for line in f:
       words = line.split()
       if words[0] not in lower_dict_en_vocab or words[1] not in lower_dict_de_vocab:
         continue
-
+    
       print(lower_dict_en_vocab[words[0]], lower_dict_de_vocab[words[1]], words[2])
+      out_f.write('%s %s\n' % (lower_dict_en_vocab[words[0]], lower_dict_de_vocab[words[1]]))
   pass
 
 if __name__ == '__main__':

@@ -3,7 +3,6 @@
 def find_ml(prob_filename):
   '''
   Returns the maximum likelihood translation src-target pairs for each src word 
-  
   Example:
     [ (0, 10, 0.239077),
       (2, 2, 0.764512),
@@ -23,8 +22,9 @@ def find_ml(prob_filename):
     
     first_vals = first_line.split()
     prev_src = int(first_vals[0])
-    max_trg = int(first_vals[1])
-    max_prob = float(first_vals[2])
+
+    trgs = [] 
+    trgs.append( (int(first_vals[1]), float(first_vals[2])))
 
     for line in iterpf:
       vals = line.split()
@@ -34,14 +34,15 @@ def find_ml(prob_filename):
       prob = float(vals[2])
 
       if src == prev_src:
-        if prob > max_prob:
-          max_trg = trg
-          max_prob = prob
+        trgs.append((int(trg), float(prob)))
       else:
-        ml.append((prev_src, max_trg, max_prob))
+        trgs.sort(key=lambda x: x[0])
+        for e in trgs:
+          if e[1] > 0.2:
+            ml.append((prev_src, e[0], e[1]))
 
-        max_trg = trg
-        max_prob = prob
+        trgs = []
+        trgs.append((int(trg), float(prob)))
 
       prev_src = src
 
@@ -76,6 +77,10 @@ def main():
     for ml in mls:
       src_i, trg_i, prob = ml
       out.write('%s %s %f\n' % (src_vocab[src_i], trg_vocab[trg_i], prob))
+  with open('../data/en-de.txt', 'w') as out:
+    for ml in mls:
+      src_i, trg_i, prob = ml
+      out.write('%s %s\n' % (src_vocab[src_i], trg_vocab[trg_i]))
 
   print ('Finished generating dictionary file.')
       

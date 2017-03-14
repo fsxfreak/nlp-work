@@ -1,0 +1,4465 @@
+Loading the translation matrix
+Reading the test data
+Reading: /usr/share/lang-corpus/word2vec/GoogleNews-vectors-negative300.txt
+Reading: /usr/share/lang-corpus/word2vec/de-vectors.txt
+Retrieving translations
+Translating
+Applying the translation matrix, size of data: 545
+((545, 300), (608130, 300))
+Computing cosines and sorting target space elements
+
+Id: 1 Source: hundredths 
+	Translation:
+		nachrechnen:0.660
+		gutschreiben:0.627
+		hundertstel:0.621
+		theoretisch:0.608
+		rein_theoretisch:0.607 
+	Gold: set(['hundertstel']) 
+	Rank: 3
+
+Id: 2 Source: rod 
+	Translation:
+		bombenfest:0.734
+		Nerven_Drahtseile:0.717
+		Reflexartig:0.715
+		Volleyballnetz:0.701
+		Zehn-Euro-Schein:0.701 
+	Gold: set(['rod']) 
+	Rank: 100808
+
+Id: 3 Source: gi 
+	Translation:
+		Jue:0.688
+		Wasi:0.682
+		Chichi:0.678
+		Inu:0.670
+		suru:0.668 
+	Gold: set(['gi']) 
+	Rank: 1420
+
+Id: 4 Source: KRONE 
+	Translation:
+		Urbanara:0.751
+		Kommunale_Gliederung:0.750
+		Foerderung_Belegschaft:0.746
+		Liste_Flugzeugtypen:0.744
+		Vierte_Feindfahrt:0.737 
+	Gold: set(['Krone']) 
+	Rank: 361159
+
+Id: 5 Source: xxii 
+	Translation:
+		Ansonsten_drohe:0.782
+		Andernfalls_drohe:0.768
+		Sonst_drohe:0.760
+		Daran_aendere:0.749
+		Verschaerft_Situation:0.748 
+	Gold: set(['XXII']) 
+	Rank: 145093
+
+Id: 6 Source: Dam 
+	Translation:
+		Flutpolder:0.688
+		Flutschutz:0.675
+		Elbewasser:0.657
+		Unterlieger:0.638
+		Elbe_Donau:0.635 
+	Gold: set(['DAM']) 
+	Rank: 172421
+
+Id: 7 Source: 0 
+	Translation:
+		Sinan_Oezkaya:0.655
+		Mehmet_Kaya:0.651
+		FV_Wallau:0.651
+		TuS_StoeckenDahlerbrueck:0.647
+		Pascal_Koetzsch:0.643 
+	Gold: set(['0']) 
+	Rank: 177
+
+Id: 8 Source: Euro 
+	Translation:
+		krisengebeutelte:0.716
+		Kroatien:0.707
+		Anleiheauktion:0.704
+		Baukonzern_Strabag:0.693
+		ITALIEN:0.691 
+	Gold: set(['euro']) 
+	Rank: 16155
+
+Id: 9 Source: MAs 
+	Translation:
+		Finanzwissen:0.721
+		Lehre_Matura:0.718
+		dualen_Studiengaengen:0.703
+		AHS-:0.702
+		dualen_Studium:0.701 
+	Gold: set(['mas']) 
+	Rank: 230790
+
+Id: 10 Source: Standards 
+	Translation:
+		verbindliche_Standards:0.805
+		verbindliche_Vorgaben:0.792
+		Kennzeichnung_Lebensmitteln:0.781
+		Mindestmengen:0.777
+		Datensparsamkeit:0.773 
+	Gold: set(['Normen', 'Standards']) 
+	Rank: 551
+
+Id: 11 Source: Cis 
+	Translation:
+		Oberaerztin_Dr:0.701
+		Netzwerk_Gesund:0.677
+		Chefarzt_Prof:0.658
+		Hautaerztin:0.647
+		Krebsnachsorge:0.642 
+	Gold: set(['GUS']) 
+	Rank: 254974
+
+Id: 12 Source: Henry 
+	Translation:
+		John:0.778
+		Henry:0.768
+		Jason:0.740
+		Anthony:0.736
+		Miller:0.736 
+	Gold: set(['Henry']) 
+	Rank: 2
+
+Id: 13 Source: GM 
+	Translation:
+		deutschen_Premiumhersteller:0.761
+		Grossteil_Geschaefts:0.753
+		Pharmariesen:0.752
+		Europas_Branchenprimus:0.751
+		Wolfsburger_Autobauer:0.746 
+	Gold: set(['genetisch']) 
+	Rank: 107308
+
+Id: 14 Source: perches 
+	Translation:
+		Daeumchen_drehen:0.769
+		warm_eingepackt:0.758
+		hinterm_Ofen:0.735
+		pitschnass:0.733
+		haeuslich_eingerichtet:0.730 
+	Gold: set(['Sitzstangen']) 
+	Rank: 795
+
+Id: 15 Source: minute 
+	Translation:
+		nocheinmal:0.706
+		Mannschaftsbesprechung:0.697
+		Teamsitzung:0.695
+		durchzuatmen:0.694
+		nochmal:0.677 
+	Gold: set(['minute']) 
+	Rank: 44458
+
+Id: 16 Source: Ores 
+	Translation:
+		Mineraloele:0.645
+		Calciumcarbid:0.635
+		hochreinem:0.633
+		gespendetes:0.632
+		An_Bodenschaetzen:0.631 
+	Gold: set(['Erze']) 
+	Rank: 42
+
+Id: 17 Source: Stones 
+	Translation:
+		Festivalgaenger:0.775
+		Bedrueckend:0.774
+		magischen_Momente:0.771
+		Sommerfeeling:0.770
+		Drum_herum:0.765 
+	Gold: set(['Steine']) 
+	Rank: 2961
+
+Id: 18 Source: NINTH 
+	Translation:
+		Terminstress:0.810
+		Bodenhaftung_verlieren:0.766
+		geradezuruecken:0.759
+		desoefteren:0.748
+		Verkehrte:0.744 
+	Gold: set(['Neunten']) 
+	Rank: 37657
+
+Id: 19 Source: PACE 
+	Translation:
+		Georgieva:0.687
+		Ljudmila_Alexejewa:0.681
+		Kathrin_Vogler:0.665
+		Seiters:0.636
+		Johann-Dietrich_Woerner:0.636 
+	Gold: set(['Tempo']) 
+	Rank: 373629
+
+Id: 20 Source: Kilo 
+	Translation:
+		hinterhergefahren:0.672
+		Bewusstlos:0.660
+		Pekinger_Flughafen:0.654
+		Tima:0.650
+		Uka:0.627 
+	Gold: set(['Kilo']) 
+	Rank: 34436
+
+Id: 21 Source: tenths 
+	Translation:
+		Ausreisser_unten:0.716
+		annaehrend:0.698
+		happig:0.677
+		womit:0.675
+		Radojevic:0.675 
+	Gold: set(['zehntel']) 
+	Rank: 706
+
+Id: 22 Source: nineties 
+	Translation:
+		loszutreten:0.713
+		90er-:0.683
+		gehypt:0.678
+		breitmachte:0.672
+		mitverschuldet:0.667 
+	Gold: set(['90er']) 
+	Rank: 101
+
+Id: 23 Source: Pairs 
+	Translation:
+		Bobby_Car:0.701
+		prall_gefuelltes:0.696
+		Proberunde:0.685
+		Kugeln_rollen:0.682
+		Reiternachwuchs:0.678 
+	Gold: set(['Paar', 'Pairs']) 
+	Rank: 7949
+
+Id: 24 Source: Poles 
+	Translation:
+		Russen:0.708
+		Polen:0.699
+		Tuerken:0.697
+		Gewerkschaft_Solidarnosc:0.695
+		Serben_Kosovo:0.679 
+	Gold: set(['Polen']) 
+	Rank: 2
+
+Id: 25 Source: Deficit 
+	Translation:
+		sprudelnden_Steuereinnahmen:0.823
+		Schuldenmacherei:0.821
+		Steuerhoehungen:0.820
+		Abbau_Staatsschulden:0.816
+		Konsolidierung_Haushalte:0.814 
+	Gold: set(['Defizit']) 
+	Rank: 1311
+
+Id: 26 Source: Bath 
+	Translation:
+		Bucklebury:0.700
+		Amberley:0.699
+		Bristol:0.683
+		Burford:0.677
+		Grafschaft_Hampshire:0.676 
+	Gold: set(['Bade']) 
+	Rank: 531206
+
+Id: 27 Source: Head 
+	Translation:
+		Ins_Detail:0.675
+		Ring_geworfen:0.674
+		bezieht_Stellung:0.672
+		hochoffiziell:0.646
+		Landesinnenminister_Ralf:0.628 
+	Gold: set(['Kopf']) 
+	Rank: 25299
+
+Id: 28 Source: Cordoba 
+	Translation:
+		Enríquez:0.785
+		Bergara:0.785
+		Ignacio_de:0.784
+		Hinojosa:0.781
+		Dávalos:0.779 
+	Gold: set(['C\xc3\xb3rdoba', 'Cordoba']) 
+	Rank: 126
+
+Id: 29 Source: curies 
+	Translation:
+		Caesium-137:0.742
+		Klimagase:0.733
+		Wasserstoffes:0.733
+		Treibhausgases_Kohlendioxid:0.727
+		Mikroplastik:0.722 
+	Gold: set(['Curie', 'WIE', 'menschen', 'Madame']) 
+	Rank: 27597
+
+Id: 30 Source: section 
+	Translation:
+		siehe_nebenstehender:0.677
+		Info-Blatt:0.676
+		Verkehrssicherheitstag:0.630
+		Wentorfer:0.629
+		Lokalseite:0.626 
+	Gold: set(['Teil']) 
+	Rank: 23
+
+Id: 31 Source: mv 
+	Translation:
+		Schiff:0.645
+		AIDAstella:0.632
+		Chartermaschine:0.623
+		Goldenfels:0.614
+		Rettungskreuzer:0.610 
+	Gold: set(['MV', 'verschiedener']) 
+	Rank: 181755
+
+Id: 32 Source: sucre 
+	Translation:
+		Eurovegas:0.675
+		LISSABON_dpa-AFX:0.650
+		Desarrollo:0.648
+		Generalitat:0.648
+		Farc:0.647 
+	Gold: set(['Sucre']) 
+	Rank: 1092
+
+Id: 33 Source: Mm 
+	Translation:
+		reingehoert:0.762
+		Aehm:0.749
+		WOLFGANG:0.749
+		Knackig:0.744
+		zamm:0.744 
+	Gold: set(['MM']) 
+	Rank: 22557
+
+Id: 34 Source: K 
+	Translation:
+		Lise-Meitner-Gymnasiums:0.605
+		13er:0.604
+		AFG:0.561
+		12b:0.556
+		Klasse:0.543 
+	Gold: set(['k']) 
+	Rank: 14
+
+Id: 35 Source: hundreds 
+	Translation:
+		Knoellchen_verteilt:0.720
+		denen:0.712
+		Flyer_verteilen:0.712
+		Finger_wund:0.696
+		Massenweise:0.694 
+	Gold: set(['Hunderte', 'hunderttausende']) 
+	Rank: 14
+
+Id: 36 Source: Mt 
+	Translation:
+		Groesste_Orte:0.729
+		Tal_Todes:0.723
+		gestrampelt:0.701
+		Dornroeschenschlaf_erwacht:0.700
+		Bange_Blicke:0.698 
+	Gold: set(['mt']) 
+	Rank: 78200
+
+Id: 37 Source: yards 
+	Translation:
+		runtergegangen:0.750
+		wegen_Falschparkens:0.706
+		Ueberlaufen_gebracht:0.699
+		aufgebrummt_bekommen:0.689
+		Raser_erwischt:0.683 
+	Gold: set(['Werften']) 
+	Rank: 163155
+
+Id: 38 Source: mises 
+	Translation:
+		GINDL:0.699
+		Kokolores:0.699
+		Knallharte:0.682
+		Garantiert:0.662
+		Bescheidener:0.654 
+	Gold: set(['Mises']) 
+	Rank: 52161
+
+Id: 39 Source: quart 
+	Translation:
+		Achterl:0.798
+		Fruehstuecksbroetchen:0.797
+		Alkoholfreies:0.794
+		heissen_Stein:0.789
+		Apfelsaftschorle:0.784 
+	Gold: set(['Quart', 'gestartete']) 
+	Rank: 17583
+
+Id: 40 Source: N 
+	Translation:
+		2015_CET:0.702
+		NICHTS:0.694
+		ABER:0.656
+		NEIN:0.644
+		12345:0.643 
+	Gold: set(['n']) 
+	Rank: 3031
+
+Id: 41 Source: FOURTH 
+	Translation:
+		gruendlich_misslungen:0.760
+		strahlende_Siegerin:0.734
+		posaunte:0.731
+		Deja-vu:0.731
+		rauschende_Party:0.725 
+	Gold: set(['vierte', 'Vierten']) 
+	Rank: 2669
+
+Id: 42 Source: TENS 
+	Translation:
+		Arzneimitteltests:0.740
+		Verdacht_Behandlungsfehler:0.716
+		Krebspatientinnen:0.705
+		Jungmediziner:0.689
+		Alkoholvergiftungen:0.688 
+	Gold: set(['Zehntausende']) 
+	Rank: 3799
+
+Id: 43 Source: Pfennigs 
+	Translation:
+		Grinsen_verkneifen:0.765
+		Zufriedener:0.754
+		erfahrenes_Team:0.747
+		Bestens_vorbereitet:0.746
+		Oesemann:0.746 
+	Gold: set(['Pfennig']) 
+	Rank: 32802
+
+Id: 44 Source: Megawatts 
+	Translation:
+		Kohle-_Gaskraftwerken:0.778
+		Wind-_Solaranlagen:0.777
+		Windraeder_Solaranlagen:0.777
+		Atommeilern:0.772
+		Erzeugungskapazitaeten:0.770 
+	Gold: set(['Megawatt']) 
+	Rank: 275
+
+Id: 45 Source: Three 
+	Translation:
+		Sechs:0.667
+		Fuenf:0.665
+		Vier:0.663
+		Drei:0.657
+		siehe_Info-Kasten:0.647 
+	Gold: set(['Drei']) 
+	Rank: 4
+
+Id: 46 Source: Acres 
+	Translation:
+		Startseite_WESER-KURIER:0.776
+		direkt_Haustuere:0.768
+		Zelte_aufschlagen:0.746
+		Rhein-Hunsrueck-Zeitung_Rhein-Zeitung:0.745
+		gruenen_Oasen:0.728 
+	Gold: set(['Hektar']) 
+	Rank: 3157
+
+Id: 47 Source: ninety 
+	Translation:
+		immerhin:0.734
+		Gegentreffer_kassieren:0.712
+		Schock_verdauen:0.711
+		Haefte:0.703
+		einsame_Spitze:0.702 
+	Gold: set(['90', 'neunzig']) 
+	Rank: 54
+
+Id: 48 Source: KNOT 
+	Translation:
+		©_wwwphotopressat:0.774
+		trauter_Zweisamkeit:0.773
+		stolze_Papa:0.765
+		Sylvie_Sabia:0.765
+		Kim_Rocco:0.761 
+	Gold: set(['Knoten']) 
+	Rank: 360055
+
+Id: 49 Source: XVIII 
+	Translation:
+		KREIS:0.596
+		allerspaetestens:0.585
+		Gustav_Rau:0.574
+		Siebtes:0.556
+		Kaiser-Wilhelm-Museum:0.544 
+	Gold: set(['XVIII']) 
+	Rank: 1295
+
+Id: 50 Source: joule 
+	Translation:
+		Gewinnung_Darstellung:0.742
+		Maximaler:0.721
+		Exergie:0.708
+		Sparsame:0.707
+		Lithium-Ionen-Akkumulator:0.700 
+	Gold: set(['Joule']) 
+	Rank: 383
+
+Id: 51 Source: Cord 
+	Translation:
+		ranhalten:0.721
+		repariere:0.711
+		herschieben:0.699
+		freizuschaufeln:0.687
+		Kroete_schlucken:0.682 
+	Gold: set(['Nabelschnurblut']) 
+	Rank: 222082
+
+Id: 52 Source: Differences 
+	Translation:
+		Informationsdefizite:0.787
+		unterschiedliche_Einschaetzungen:0.784
+		Veraenderungsbedarf:0.769
+		Konsensfindung:0.767
+		Lohnunterschiede:0.763 
+	Gold: set(['Unterschiede']) 
+	Rank: 99
+
+Id: 53 Source: Lamberts 
+	Translation:
+		Pade:0.731
+		stolzen_Besitzer:0.719
+		Zirkusluft:0.704
+		Obst-_Gemuesestand:0.696
+		Alt-Lotter:0.675 
+	Gold: set(['Lamberts']) 
+	Rank: 11507
+
+Id: 54 Source: 6 
+	Translation:
+		13:0.742
+		9:0.741
+		14:0.725
+		12:0.713
+		16:0.710 
+	Gold: set(['6']) 
+	Rank: 2710
+
+Id: 55 Source: XXIV 
+	Translation:
+		Sportereignisses:0.579
+		abrundet:0.573
+		Prinzenpaares:0.564
+		Dinners:0.550
+		neuen_Koenigspaares:0.550 
+	Gold: set(['XXIV']) 
+	Rank: 275
+
+Id: 56 Source: mG 
+	Translation:
+		85_Dezibel:0.744
+		65_Dezibel:0.726
+		halbe_Wellenlaenge:0.711
+		500_nm:0.709
+		Wattstunden:0.709 
+	Gold: set(['MG']) 
+	Rank: 230569
+
+Id: 57 Source: mA 
+	Translation:
+		gefahrene_Kilometer:0.734
+		Gespraechszeit:0.681
+		heruntergerechnet:0.657
+		Megabit:0.648
+		Sparmodus:0.644 
+	Gold: set(['mA']) 
+	Rank: 231
+
+Id: 58 Source: WEIGHT 
+	Translation:
+		zwanglaeufig:0.747
+		draufgeht:0.744
+		Stresspegel:0.708
+		einbremsen:0.699
+		paar_Kilos:0.692 
+	Gold: set(['Gewicht']) 
+	Rank: 34
+
+Id: 59 Source: F 
+	Translation:
+		Baujahr_1972:0.685
+		Vorgaenger_Renault:0.680
+		Peugeot_RCZ:0.672
+		Jaguar_XF:0.666
+		Rolls-Royce_Wraith:0.663 
+	Gold: set(['F']) 
+	Rank: 5964
+
+Id: 60 Source: Mol 
+	Translation:
+		Schoerkhuber:0.753
+		Freuen_durfte:0.745
+		Javurek:0.739
+		Weiand:0.726
+		Schilk:0.719 
+	Gold: set(['MOL']) 
+	Rank: 27396
+
+Id: 61 Source: UNITY 
+	Translation:
+		Aktivistinnen_Aktivisten:0.671
+		hochhielten:0.668
+		Praesidentenpaar:0.661
+		Tahrir:0.621
+		Studentenparty:0.619 
+	Gold: set(['Einheit']) 
+	Rank: 45370
+
+Id: 62 Source: V 
+	Translation:
+		Baujahr_1960:0.668
+		Audi_RS5:0.665
+		Infiniti_Q50:0.660
+		VW_Bulli:0.650
+		Baujahr_1954:0.640 
+	Gold: set(['v']) 
+	Rank: 1219
+
+Id: 63 Source: UNITS 
+	Translation:
+		eiserne_Reserve:0.754
+		Sammelcontainer:0.664
+		mitgewachsen:0.659
+		kundenfreundlich:0.651
+		Abfallentsorger:0.646 
+	Gold: set(['Einheiten']) 
+	Rank: 8770
+
+Id: 64 Source: Reflectance 
+	Translation:
+		Teilnehmer_Modus:0.815
+		Darstellung_Computer:0.811
+		Anwendungsgebiete_Indikationen:0.807
+		Formale_Definition:0.800
+		Bildung_Fundorte:0.783 
+	Gold: set(['Reflexionsgrad']) 
+	Rank: 1718
+
+Id: 65 Source: ADVANTAGE 
+	Translation:
+		schier_unglaublich:0.737
+		lebenden_Objekt:0.734
+		graue_Theorie:0.731
+		Balance-Akt:0.728
+		eierlegende_Wollmilchsau:0.727 
+	Gold: set(['Nutzen', 'Vorteil']) 
+	Rank: 1335
+
+Id: 66 Source: Ins 
+	Translation:
+		Rechnung_begleichen:0.583
+		unzufriedene:0.555
+		ging_umstrittene:0.360
+		Durch_Entscheid:0.341
+		Nebenkriegsschauplaetze:0.611 
+	Gold: set(['Ins']) 
+	Rank: 3281
+
+Id: 67 Source: COUPLES 
+	Translation:
+		ruestigen_Rentner:0.773
+		Grosseltern_Enkel:0.753
+		kreative_Ader:0.748
+		Tageskinder:0.747
+		Konfis:0.743 
+	Gold: set(['paaren', 'Paare']) 
+	Rank: 113
+
+Id: 68 Source: Zloty 
+	Translation:
+		Karpowitz:0.696
+		Commerzbank-Analyst:0.647
+		Maue:0.638
+		Thomas_Gitzel:0.636
+		LBBW-Analyst:0.634 
+	Gold: set(['Zloty']) 
+	Rank: 4989
+
+Id: 69 Source: erg 
+	Translation:
+		Mitlaufen:0.715
+		Gathof:0.699
+		Trainingsstand:0.675
+		Wandratsch:0.660
+		Dreier-Team:0.648 
+	Gold: set(['erg']) 
+	Rank: 17310
+
+Id: 70 Source: nine 
+	Translation:
+		fuenf:0.764
+		elf:0.757
+		sechs:0.755
+		sieben:0.754
+		acht:0.754 
+	Gold: set(['neun']) 
+	Rank: 6
+
+Id: 71 Source: ms 
+	Translation:
+		Jack_Dorsey:0.640
+		Silent_Circle:0.627
+		Resource_Records:0.616
+		Oracles:0.614
+		Watchdog:0.613 
+	Gold: set(['Frau']) 
+	Rank: 365355
+
+Id: 72 Source: Lineage 
+	Translation:
+		Chiropterans:0.654
+		Tsukumogami:0.626
+		Mah-Jongg:0.616
+		Erdbewohner:0.615
+		Kraeftemessens:0.593 
+	Gold: set(['ZU', 'Abstammung', 'Bestimmen']) 
+	Rank: 39413
+
+Id: 73 Source: figure 
+	Translation:
+		Kandidaten-Check:0.664
+		sagen:0.650
+		Ansichtssache:0.646
+		ZEIT_Campus:0.640
+		getippt:0.632 
+	Gold: set(['Zahl']) 
+	Rank: 8191
+
+Id: 74 Source: DOLLARS 
+	Translation:
+		draufzulegen:0.763
+		gegengerechnet:0.755
+		Koerberlgeld:0.750
+		gegenrechnen:0.749
+		Sparbeitrag:0.747 
+	Gold: set(['Dollar']) 
+	Rank: 6049
+
+Id: 75 Source: escudos 
+	Translation:
+		Banco_Central:0.671
+		Pesos:0.659
+		Banco_Nacional:0.654
+		Industrias:0.646
+		Lda:0.645 
+	Gold: set(['Escudos']) 
+	Rank: 6
+
+Id: 76 Source: Billion 
+	Translation:
+		Aktionaere_ausschuetten:0.810
+		Abschreibungsbedarf:0.808
+		Staatskasse_spuelen:0.804
+		Kassen_gespuelt:0.794
+		zurueckgeflossen:0.789 
+	Gold: set(['Milliarden']) 
+	Rank: 266
+
+Id: 77 Source: Ls 
+	Translation:
+		aufpaeppeln:0.723
+		groessere_Blessuren:0.690
+		Haeuslbauer:0.673
+		Euroscheine:0.653
+		ausborgen:0.633 
+	Gold: set(['nennen', 'l']) 
+	Rank: 30877
+
+Id: 78 Source: Eagles 
+	Translation:
+		OFC-Fans:0.734
+		Feierbiester:0.724
+		Schwarz-Gelbe:0.721
+		Club-Fans:0.705
+		Erkaeltungswelle:0.701 
+	Gold: set(['Adler']) 
+	Rank: 486
+
+Id: 79 Source: SABIN 
+	Translation:
+		Bild_imago:0.863
+		·_bjl:0.833
+		▪_mak:0.816
+		Hannes_Jagerhofer:0.803
+		Bueth:0.798 
+	Gold: set(['Sabin']) 
+	Rank: 25258
+
+Id: 80 Source: 1 
+	Translation:
+		Zum_Weiterschauen:0.715
+		1:0.708
+		Richtige_Superzahl:0.706
+		Angaben_Gewaehr:0.685
+		STATISTIK_Tore:0.668 
+	Gold: set(['1']) 
+	Rank: 2
+
+Id: 81 Source: MATE 
+	Translation:
+		Heimisches:0.732
+		passende_Outfit:0.713
+		Tricks_Kniffe:0.709
+		Muckibude:0.698
+		noetige_Know-how:0.689 
+	Gold: set(['Mate']) 
+	Rank: 26493
+
+Id: 82 Source: cardinal 
+	Translation:
+		Heiliger_Vater:0.756
+		Wahl_Bergoglios:0.755
+		Hagenkord:0.752
+		zurueckgetretenen_Papst:0.751
+		Katholikenphobie:0.741 
+	Gold: set(['Kardinal']) 
+	Rank: 77
+
+Id: 83 Source: SIXTY 
+	Translation:
+		Einsaetzen_ausgerueckt:0.691
+		zelteten:0.651
+		AWO-Kindergarten:0.628
+		Am_Eroeffnungstag:0.621
+		130:0.620 
+	Gold: set(['60', 'Sechzig']) 
+	Rank: 2607
+
+Id: 84 Source: KOs 
+	Translation:
+		Robin_Krasniqi:0.660
+		Witali_Klitschko:0.657
+		Alexander_Povetkin:0.644
+		Box-Weltmeister_Wladimir:0.638
+		Ola_Afolabi:0.636 
+	Gold: set(['insel', 'KOS']) 
+	Rank: 147359
+
+Id: 85 Source: III 
+	Translation:
+		V:0.601
+		SGi_Schwann:0.593
+		Wahlkreis_Mettmann:0.572
+		SG_Neuses:0.570
+		I:0.569 
+	Gold: set(['III']) 
+	Rank: 17
+
+Id: 86 Source: A 
+	Translation:
+		Anja_Suttmeyer:0.476
+		Lokalnachrichten_Verden:0.463
+		Kreis_Guetersloh:0.452
+		Warburg:0.442
+		Wetterexperte_Dominik:0.554 
+	Gold: set(['EINE', 'EIN']) 
+	Rank: 14925
+
+Id: 87 Source: Kilometres 
+	Translation:
+		Busreisende:0.708
+		radelnd:0.707
+		Glasfaserkabel_verlegt:0.702
+		kuerzeste_Strecke:0.700
+		Fundort_Bombe:0.690 
+	Gold: set(['Kilometern', 'Kilometer']) 
+	Rank: 1694
+
+Id: 88 Source: BANS 
+	Translation:
+		generell_verbieten:0.765
+		verdonnern:0.762
+		voellig_ueberzogenen:0.754
+		allerletzte_Mittel:0.753
+		Schummeleien:0.751 
+	Gold: set(['Verbote']) 
+	Rank: 831
+
+Id: 89 Source: Cicero 
+	Translation:
+		Tarquinio:0.636
+		Hermann_Kurzke:0.635
+		Milesi:0.635
+		Publio:0.628
+		Giachini:0.627 
+	Gold: set(['Cicero']) 
+	Rank: 571
+
+Id: 90 Source: ZEROS 
+	Translation:
+		Opie:0.662
+		Uhura:0.661
+		LeBron:0.654
+		Slender:0.650
+		Murphys_Gesetz:0.649 
+	Gold: set(['Nullen']) 
+	Rank: 209713
+
+Id: 91 Source: eighth 
+	Translation:
+		Zaeher:0.673
+		Eishockey_Eisbaeren:0.670
+		Daempfer_erlitten:0.663
+		Verlieren_verboten:0.651
+		bricht_Rekorde:0.648 
+	Gold: set(['achten']) 
+	Rank: 113
+
+Id: 92 Source: LEONE 
+	Translation:
+		Brandao:0.736
+		Nawal:0.721
+		stockender_Stimme:0.702
+		Giusi_Nicolini:0.699
+		Reevas:0.697 
+	Gold: set(['Leone']) 
+	Rank: 1764
+
+Id: 93 Source: KWAI 
+	Translation:
+		Erich-Kaestner-Grundschule:0.586
+		KBO:0.573
+		BBQ:0.569
+		Rassekaninchen:0.546
+		SMAP:0.543 
+	Gold: set(['Kwai']) 
+	Rank: 51285
+
+Id: 94 Source: sectors 
+	Translation:
+		Hersteller_Zulieferer:0.806
+		Volksbanken_Sparkassen:0.804
+		Leiharbeit_Werkvertraege:0.801
+		mittelstaendischen_Firmen:0.787
+		Windbranche:0.784 
+	Gold: set(['Sektoren']) 
+	Rank: 88
+
+Id: 95 Source: ss 
+	Translation:
+		Henscheid:0.618
+		Gerald_Huether:0.616
+		Mark_Benecke:0.600
+		John_Searle:0.588
+		criticde:0.584 
+	Gold: set(['ss']) 
+	Rank: 49314
+
+Id: 96 Source: candles 
+	Translation:
+		Kerzen:0.746
+		Waffeln_gebacken:0.734
+		Weihnachtsdeko:0.719
+		Osternester:0.714
+		Sektflaschen:0.711 
+	Gold: set(['Kerzen']) 
+	Rank: 1
+
+Id: 97 Source: Litres 
+	Translation:
+		Restmuelltonnen:0.770
+		Energieeffizienzklasse_A:0.760
+		Gramm_Kohlendioxid:0.757
+		Diesel_Benzin:0.752
+		Luft_geblasen:0.750 
+	Gold: set(['Liter']) 
+	Rank: 162
+
+Id: 98 Source: Mole 
+	Translation:
+		breit_grinsend:0.792
+		zuckte_Schultern:0.765
+		bevor_losging:0.755
+		zugeschnappt:0.750
+		Herrl:0.747 
+	Gold: set(['Maulwurf']) 
+	Rank: 165
+
+Id: 99 Source: drachma 
+	Translation:
+		Finger_verbrannt:0.772
+		Geldhahn_zugedreht:0.767
+		Bank-Kunden:0.753
+		Schwarzgeld_Schweiz:0.749
+		Zypern-Loesung:0.724 
+	Gold: set(['Drachme']) 
+	Rank: 40
+
+Id: 100 Source: words 
+	Translation:
+		ausreden_lassen:0.796
+		Ohren_hauen:0.787
+		Herrenwitze:0.774
+		Schultern_zucken:0.773
+		mahnenden_Worten:0.762 
+	Gold: set(['Worte', 'Worten']) 
+	Rank: 42
+
+Id: 101 Source: schillings 
+	Translation:
+		loehnen:0.741
+		Tagespreis:0.732
+		Standmiete:0.724
+		Bahncard_50:0.717
+		berappt:0.709 
+	Gold: set(['Schilling']) 
+	Rank: 18413
+
+Id: 102 Source: COUPLE 
+	Translation:
+		Schongauer_Altstadt:0.758
+		Wiesn-Besucher:0.743
+		Umzugshelfer:0.738
+		Pizza_essen:0.738
+		Party-Gaeste:0.734 
+	Gold: set(['Paar', 'Einige']) 
+	Rank: 78
+
+Id: 103 Source: koruna 
+	Translation:
+		Barbara_Gindl:0.692
+		Thomas_Neuhold:0.671
+		Gratiszeitung_Heute:0.670
+		Adelheid_Woelfl:0.640
+		WienSalzburg:0.637 
+	Gold: set(['Krone']) 
+	Rank: 52972
+
+Id: 104 Source: FORTY 
+	Translation:
+		knatterten:0.622
+		Stretchlimousine:0.622
+		kutschierte:0.618
+		Stars_Manege:0.606
+		paar:0.601 
+	Gold: set(['Vierzig', '40']) 
+	Rank: 245
+
+Id: 105 Source: EIGHTEEN 
+	Translation:
+		Neuspender:0.682
+		krankgemeldet:0.656
+		freibekommen:0.654
+		Altgediente:0.654
+		Geduldsprobe_gestellt:0.650 
+	Gold: set(['18', 'Achtzehn']) 
+	Rank: 1861
+
+Id: 106 Source: LIS 
+	Translation:
+		Ausbildungssuchende:0.713
+		Anmeldeboegen:0.693
+		angehenden_Abiturienten:0.689
+		naehere_Infos:0.679
+		verschiedene_Ausbildungsberufe:0.678 
+	Gold: set(['Lis']) 
+	Rank: 357815
+
+Id: 107 Source: Barrel 
+	Translation:
+		Paar_Socken:0.765
+		gefuttert:0.760
+		Sommersachen:0.758
+		Designerstueck:0.758
+		frischen_Spargel:0.752 
+	Gold: set(['Barrel']) 
+	Rank: 92707
+
+Id: 108 Source: hundredth 
+	Translation:
+		Wunschergebnis:0.658
+		Millionenfrage:0.639
+		herausspringt:0.632
+		Adam_Riese:0.631
+		Klacks:0.623 
+	Gold: set(['hundertsten']) 
+	Rank: 1512
+
+Id: 109 Source: lb 
+	Translation:
+		abgereichertes_Uran:0.651
+		hochangereichertes_Uran:0.650
+		cwt:0.627
+		Megatonnen:0.623
+		4,5_Tonnen:0.622 
+	Gold: set(['Pfund', 'LB', 'schwere', 'aufgefunden']) 
+	Rank: 2456
+
+Id: 110 Source: QUOTAS 
+	Translation:
+		Spassbremsen:0.797
+		Ausnahmen_EEG-Umlage:0.796
+		EU-Buerokratie:0.795
+		ungleich_behandelt:0.793
+		Zusagen_eingehalten:0.792 
+	Gold: set(['Quoten']) 
+	Rank: 15671
+
+Id: 111 Source: li 
+	Translation:
+		Ueberschrieben:0.663
+		Go_for:0.653
+		FESTIVAL:0.647
+		CVG:0.634
+		NUR:0.629 
+	Gold: set(['li']) 
+	Rank: 204577
+
+Id: 112 Source: hectolitre 
+	Translation:
+		Biomilch:0.797
+		Bio-Milch:0.766
+		Rapskuchen:0.753
+		Biolebensmittel:0.749
+		Literpreis:0.748 
+	Gold: set(['Hektoliter']) 
+	Rank: 118
+
+Id: 113 Source: forints 
+	Translation:
+		Wiener_Privatbank:0.705
+		Raiffeisen_Oberoesterreich:0.700
+		FOHRINGER:0.695
+		KSV_1870:0.689
+		Gasselsberger:0.679 
+	Gold: set(['Forint']) 
+	Rank: 3694
+
+Id: 114 Source: Kilowatts 
+	Translation:
+		fuers_Heizen:0.771
+		Energiekosten_sparen:0.746
+		Netz_einspeisen:0.730
+		sauberen_Strom:0.728
+		ueberschuessigen_Strom:0.722 
+	Gold: set(['Kilowatt']) 
+	Rank: 108
+
+Id: 115 Source: Barrels 
+	Translation:
+		Farbdosen:0.744
+		Wurfmaterial:0.743
+		Grillfreunde:0.733
+		ordnungsgemaess_entsorgen:0.726
+		gelbe_Saecke:0.718 
+	Gold: set(['Barrel']) 
+	Rank: 36570
+
+Id: 116 Source: FIRST 
+	Translation:
+		ausklinken:0.673
+		bestens_ausgeruestet:0.671
+		Sportfamilie:0.655
+		dabei:0.652
+		Bestmoegliche:0.625 
+	Gold: set(['Ersten']) 
+	Rank: 10137
+
+Id: 117 Source: gal 
+	Translation:
+		Alexander_Posth:0.768
+		Gitta_Saxx:0.767
+		Toyboy:0.758
+		Annina_Ucatis:0.747
+		Model-Freundin:0.729 
+	Gold: set(['Gal']) 
+	Rank: 15455
+
+Id: 118 Source: Newton 
+	Translation:
+		Pettis:0.698
+		Scoble:0.682
+		Costolo:0.680
+		Harvey:0.680
+		Hodgman:0.677 
+	Gold: set(['Newton']) 
+	Rank: 616
+
+Id: 119 Source: QUINT 
+	Translation:
+		−_bb:0.691
+		Jaeger_Augenblicks:0.686
+		Oldtimer-Fan:0.668
+		Peppe:0.655
+		Cortis:0.644 
+	Gold: set(['Quint']) 
+	Rank: 2638
+
+Id: 120 Source: l 
+	Translation:
+		align=center_class=hintergrundfarbe5:0.782
+		SCHMID:0.659
+		Verkehrs-_Foerderverein:0.622
+		Aufsteiger_Divizia:0.608
+		VfS:0.602 
+	Gold: set(['l']) 
+	Rank: 10536
+
+Id: 121 Source: kroner 
+	Translation:
+		Danske_Bank:0.601
+		norwegische:0.581
+		norwegischen:0.577
+		Sanomat:0.570
+		daenischen:0.564 
+	Gold: set(['Kronen']) 
+	Rank: 562
+
+Id: 122 Source: LITRE 
+	Translation:
+		Lohnen:0.789
+		−_luk:0.779
+		abzwacken:0.765
+		Preiswerter:0.757
+		Verkehrssuenden:0.736 
+	Gold: set(['Liter']) 
+	Rank: 37276
+
+Id: 123 Source: micrograms 
+	Translation:
+		131I:0.755
+		Mikrogramm:0.751
+		Nanogramm:0.739
+		gTag:0.736
+		Millisievert:0.728 
+	Gold: set(['Mikrogramm']) 
+	Rank: 2
+
+Id: 124 Source: FINGERS 
+	Translation:
+		Immerzu:0.831
+		Jaaaa:0.814
+		Sensibelchen:0.801
+		Igitt:0.794
+		stinknormalen:0.791 
+	Gold: set(['finger']) 
+	Rank: 237344
+
+Id: 125 Source: FOUR 
+	Translation:
+		Club-Mitglieder:0.708
+		Rennern:0.631
+		schoener_Regelmaessigkeit:0.625
+		Reihe:0.596
+		Jede_Woche:0.594 
+	Gold: set(['vier']) 
+	Rank: 1354
+
+Id: 126 Source: Won 
+	Translation:
+		hoch_gepokert:0.689
+		Knie_gezwungen:0.633
+		Top-Verdienern:0.633
+		pokert:0.628
+		verzockte:0.619 
+	Gold: set(['Gewonnen']) 
+	Rank: 1981
+
+Id: 127 Source: thirteen 
+	Translation:
+		dreizehn:0.680
+		Gittern_verbracht:0.677
+		Sage_schreibe:0.656
+		niederlaendischen_Thron:0.644
+		sage_schreibe:0.644 
+	Gold: set(['dreizehn', '13']) 
+	Rank: 1
+
+Id: 128 Source: tenth 
+	Translation:
+		Knackt:0.730
+		Rekord_geknackt:0.728
+		Optimal_waere:0.710
+		rausspringen:0.704
+		Top-Wert:0.692 
+	Gold: set(['zehnten']) 
+	Rank: 609
+
+Id: 129 Source: es 
+	Translation:
+		hombre:0.711
+		todo:0.707
+		esta:0.706
+		Adiós:0.702
+		siempre:0.696 
+	Gold: set(['Es']) 
+	Rank: 453680
+
+Id: 130 Source: Kwanza 
+	Translation:
+		aik:0.669
+		Nordwest-Bantusprache_gehoert:0.623
+		Naju:0.616
+		Soviel_brauchst:0.613
+		Ober-Ramstadts:0.604 
+	Gold: set(['Sul']) 
+	Rank: 19647
+
+Id: 131 Source: eB 
+	Translation:
+		Stromspeichern:0.756
+		autonomes_Fahren:0.755
+		Technische_Besonderheiten:0.753
+		Technische_Umsetzung:0.742
+		Verkehrsrechner:0.739 
+	Gold: set(['EB']) 
+	Rank: 2251
+
+Id: 132 Source: Eight 
+	Translation:
+		Arbeitsjahr:0.584
+		Fahrer_Fahrerinnen:0.581
+		Hochtaunuskreis:0.514
+		rot_markierten:0.497
+		Kreis_Calw:0.494 
+	Gold: set(['acht']) 
+	Rank: 617
+
+Id: 133 Source: 7 
+	Translation:
+		Linzer_Posthof:0.724
+		PROGRAMM:0.711
+		Wilhelmshavenlr:0.702
+		20Uhr:0.698
+		Lenneper_Klosterkirche:0.691 
+	Gold: set(['7']) 
+	Rank: 4289
+
+Id: 134 Source: Remainder 
+	Translation:
+		momentane_Situation:0.625
+		Ankuendigung:0.600
+		gemuenzt:0.591
+		Dafuerhalten:0.590
+		Vorausschauend:0.587 
+	Gold: set(['Rest']) 
+	Rank: 1353
+
+Id: 135 Source: EN 
+	Translation:
+		fkn:0.746
+		bf:0.728
+		ksta:0.716
+		Info_Anmeldung:0.663
+		BALZERS:0.663 
+	Gold: set(['en']) 
+	Rank: 21466
+
+Id: 136 Source: Grams 
+	Translation:
+		Troester:0.608
+		Kuesters:0.591
+		Heiland:0.568
+		Flor:0.563
+		Scheffel:0.550 
+	Gold: set(['Gramm', 'g']) 
+	Rank: 23892
+
+Id: 137 Source: THIRD 
+	Translation:
+		ein0true:0.739
+		31-_jaehrige:0.680
+		Golf-Star:0.663
+		Riesenloch:0.662
+		keimt_Hoffnung:0.661 
+	Gold: set(['Dritten']) 
+	Rank: 5894
+
+Id: 138 Source: Afghanis 
+	Translation:
+		Chinesen_Russen:0.738
+		Syrier:0.733
+		russische_Staatsbuerger:0.731
+		Jemeniten:0.727
+		Afghanen:0.722 
+	Gold: set(['Afghanen']) 
+	Rank: 5
+
+Id: 139 Source: Numerator 
+	Translation:
+		Mammut-Projekt:0.692
+		Paket_geschnuert:0.685
+		freiwilliges_Angebot:0.672
+		finanzieller_Kraftakt:0.665
+		Studienstart:0.647 
+	Gold: set(['UM', 'Gestritten', 'Wird']) 
+	Rank: 53757
+
+Id: 140 Source: mms 
+	Translation:
+		FEUERWEHR:0.669
+		Open_End:0.663
+		eMail:0.658
+		Info-Hotline:0.651
+		ttcom:0.646 
+	Gold: set(['MM']) 
+	Rank: 16688
+
+Id: 141 Source: fourteen 
+	Translation:
+		quaelend_lange:0.735
+		Groebsten_raus:0.698
+		akribisch_vorbereitet:0.685
+		vierzehn:0.678
+		Dreieinhalb_Stunden:0.673 
+	Gold: set(['vierzehn', '14']) 
+	Rank: 4
+
+Id: 142 Source: DEGREES 
+	Translation:
+		Gewicht_Waage:0.713
+		Wetterexperte_Jung:0.655
+		Rekordsommer:0.646
+		Solls:0.631
+		Wechselhaft:0.613 
+	Gold: set(['grad']) 
+	Rank: 153791
+
+Id: 143 Source: II 
+	Translation:
+		Italienpolitik:0.552
+		Vorgaengers:0.528
+		VI:0.519
+		Vorgaenger:0.507
+		Vorgaengern:0.498 
+	Gold: set(['II']) 
+	Rank: 137
+
+Id: 144 Source: g 
+	Translation:
+		ConsoleWriteLine:0.724
+		return_0:0.698
+		wh:0.664
+		COL:0.651
+		j_=:0.649 
+	Gold: set(['g']) 
+	Rank: 1269
+
+Id: 145 Source: iss 
+	Translation:
+		Jetz:0.680
+		gmacht:0.674
+		gsagt:0.661
+		NIE:0.654
+		Ok:0.642 
+	Gold: set(['ISS']) 
+	Rank: 370563
+
+Id: 146 Source: Vii 
+	Translation:
+		Iphone:0.796
+		i-Pad:0.777
+		Plants_vs:0.762
+		Apple-Handy:0.748
+		fuers_Handgelenk:0.747 
+	Gold: set(['VII']) 
+	Rank: 109592
+
+Id: 147 Source: pence 
+	Translation:
+		US-Fonds:0.764
+		Twitter-Aktien:0.730
+		europaeischen_Stahlsparte:0.723
+		Millionenstrafe_zahlen:0.723
+		Bank_Barclays:0.720 
+	Gold: set(['Pence']) 
+	Rank: 164
+
+Id: 148 Source: Vis 
+	Translation:
+		Holger_Wetzel:0.804
+		Guenther_Peroutka:0.712
+		Lammsbraeu:0.679
+		Dran:0.676
+		Touristikvereins:0.671 
+	Gold: set(['vis']) 
+	Rank: 30245
+
+Id: 149 Source: w 
+	Translation:
+		POOL:0.694
+		Boris_Roessler:0.671
+		The_Hour:0.671
+		fotolia:0.664
+		Legendaeres:0.657 
+	Gold: set(['W']) 
+	Rank: 21880
+
+Id: 150 Source: bushel 
+	Translation:
+		trennt_Spreu:0.674
+		Ernte_eingefahren:0.620
+		Huhn:0.620
+		kuehl_nass:0.600
+		pfluecken:0.594 
+	Gold: set(['Scheffel']) 
+	Rank: 96
+
+Id: 151 Source: LUX 
+	Translation:
+		Elisabeth_Guertler:0.713
+		Kilian_Kerner:0.703
+		Fashion-Show:0.700
+		Rena_Lange:0.688
+		Koch-Show:0.684 
+	Gold: set(['lux']) 
+	Rank: 11286
+
+Id: 152 Source: Dinars 
+	Translation:
+		Aussenstaenden:0.710
+		hinterzogenen_Steuern:0.703
+		Monatsgehalts:0.697
+		Hilfsgeldern:0.694
+		einbezahlt:0.684 
+	Gold: set(['Dinar']) 
+	Rank: 36
+
+Id: 153 Source: one 
+	Translation:
+		Lachen_vergangen:0.789
+		naemlich:0.773
+		hoere_staune:0.738
+		Keinen_einzigen:0.730
+		zumindestens:0.725 
+	Gold: set(['EINE']) 
+	Rank: 23797
+
+Id: 154 Source: XIII 
+	Translation:
+		Kuenstlerisches_Wirken:0.745
+		Vierter_Akt:0.674
+		Mitgliedschaften_Ehrungen:0.644
+		Nackte_Maenner:0.623
+		Kunst-Biennale_Venedig:0.615 
+	Gold: set(['XIII']) 
+	Rank: 249
+
+Id: 155 Source: dong 
+	Translation:
+		Hoi_An:0.627
+		Dong:0.621
+		Dongguan:0.617
+		RTGS:0.609
+		Hanoi_Vietnam:0.603 
+	Gold: set(['Einem', 'dong']) 
+	Rank: 1427
+
+Id: 156 Source: Gilbert 
+	Translation:
+		del_Rio:0.699
+		Florez:0.699
+		Richi:0.697
+		Maex:0.693
+		Hannon:0.690 
+	Gold: set(['Gilbert']) 
+	Rank: 533
+
+Id: 157 Source: xv 
+	Translation:
+		Inbegriffen:0.632
+		Festgehalten:0.583
+		Geregelt:0.548
+		freizustellen:0.542
+		Gleichzeit:0.540 
+	Gold: set(['XV']) 
+	Rank: 54480
+
+Id: 158 Source: Folios 
+	Translation:
+		Vergleichsrechner:0.738
+		Unternehmenswelt:0.734
+		Qualitaetsversprechen:0.729
+		genauer_betrachten:0.717
+		personalisieren:0.712 
+	Gold: set(['teure', 'geben', 'Folianten', 'weiterhin']) 
+	Rank: 1862
+
+Id: 159 Source: Decibels 
+	Translation:
+		Null_Hundert:0.700
+		Tuckern:0.698
+		ausatmen:0.680
+		Wummern:0.679
+		atemberaubender_Geschwindigkeit:0.670 
+	Gold: set(['Dezibel']) 
+	Rank: 645
+
+Id: 160 Source: WORD 
+	Translation:
+		zuhoere:0.725
+		Henryk_Broder:0.722
+		N-Wort:0.718
+		frohen_Botschaft:0.714
+		predige:0.709 
+	Gold: set(['wort']) 
+	Rank: 7718
+
+Id: 161 Source: Irrational 
+	Translation:
+		Schwarzmalerei:0.809
+		Kritisierten:0.797
+		alternativlosen:0.790
+		anzukreiden:0.787
+		Planlosigkeit:0.784 
+	Gold: set(['irrationalen']) 
+	Rank: 488
+
+Id: 162 Source: xii 
+	Translation:
+		beschere:0.709
+		abschliesse:0.699
+		abhandenkommen:0.679
+		Befristete:0.677
+		vorzugreifen:0.663 
+	Gold: set(['XII']) 
+	Rank: 9562
+
+Id: 163 Source: trillion 
+	Translation:
+		Bankenpaket:0.811
+		zweistelliger_Milliardenhoehe:0.807
+		Konjunktur_ankurbeln:0.807
+		Foerderbank_KfW:0.793
+		systemrelevanten_Banken:0.791 
+	Gold: set(['Billion', 'Billionen']) 
+	Rank: 450
+
+Id: 164 Source: Hms 
+	Translation:
+		Ihr_Schwesterschiff:0.623
+		Hafenschlepper:0.623
+		Gelandet:0.615
+		Flugzeugmutterschiff:0.614
+		Inglefield:0.593 
+	Gold: set(['HMS']) 
+	Rank: 387
+
+Id: 165 Source: DGS 
+	Translation:
+		Klueh:0.672
+		Tourismus-Zentrale:0.667
+		EGM:0.642
+		Realisierungsgesellschaft:0.640
+		Spedition_Logistik:0.638 
+	Gold: set(['Generaldirektionen']) 
+	Rank: 6273
+
+Id: 166 Source: 2 
+	Translation:
+		2:0.721
+		||_0:0.672
+		Ordentliche_Wahl:0.659
+		SV_BreitenbergM:0.657
+		@_nd-onlinede:0.651 
+	Gold: set(['2']) 
+	Rank: 1
+
+Id: 167 Source: ton 
+	Translation:
+		Tonne:0.666
+		Aufgetaucht:0.658
+		Lunten:0.649
+		Fuhre:0.640
+		Schrottpresse:0.637 
+	Gold: set(['Tonne']) 
+	Rank: 1
+
+Id: 168 Source: ATs 
+	Translation:
+		Parcours_bewaeltigen:0.717
+		LED-Lichter:0.694
+		Fernsteuerungen:0.692
+		Loeschangriffe:0.688
+		Geschicklichkeitsuebungen:0.686 
+	Gold: set(['ATS']) 
+	Rank: 7785
+
+Id: 169 Source: Litas 
+	Translation:
+		gestiegenen_Personalkosten:0.758
+		Mindestzufuehrung:0.737
+		GfK-Studie:0.736
+		Risikovorsorgen:0.726
+		Klima-_Energiefonds:0.723 
+	Gold: set(['Litas']) 
+	Rank: 4547
+
+Id: 170 Source: denominators 
+	Translation:
+		Etymologie_Geschichte:0.781
+		Wahlprogrammen_Parteien:0.765
+		aufzuschluesseln:0.754
+		Inhalten_fuellen:0.748
+		abbilde:0.748 
+	Gold: set(['Nenner']) 
+	Rank: 6130
+
+Id: 171 Source: ATMS 
+	Translation:
+		Mietautos:0.789
+		Parktickets:0.783
+		Online-Bestellungen:0.772
+		Plastikgeld:0.771
+		Internetbanking:0.769 
+	Gold: set(['Geldautomaten']) 
+	Rank: 636
+
+Id: 172 Source: PDL 
+	Translation:
+		5-Sterne-Bewegung:0.779
+		Schwarz-gelb:0.766
+		Mitte-Rechts:0.761
+		linken_Lagers:0.754
+		Mitte-Links-Buendnisses:0.751 
+	Gold: set(['PDL']) 
+	Rank: 296
+
+Id: 173 Source: Kv 
+	Translation:
+		Schienen-_Busverkehr:0.774
+		Gruendung_Unterbauten:0.729
+		Stadtwerke-Tochter:0.711
+		Stadtwerke_Hilden:0.709
+		Heag-Mobilo:0.708 
+	Gold: set(['kV']) 
+	Rank: 1811
+
+Id: 174 Source: MOLES 
+	Translation:
+		Outfittery:0.762
+		Partyfotos:0.730
+		Gewusst:0.724
+		Marketingstrategen:0.708
+		RadarOnline:0.702 
+	Gold: set(['Hingegen', 'vollzieht', 'Einige']) 
+	Rank: 223073
+
+Id: 175 Source: TONNE 
+	Translation:
+		moeglichweise:0.757
+		Rumpf_Antrieb:0.757
+		maerkischen_Sand:0.735
+		Fluggesellschaften_Ziele:0.717
+		Muellautos:0.703 
+	Gold: set(['Tonne']) 
+	Rank: 30508
+
+Id: 176 Source: Seven 
+	Translation:
+		Wochenrhythmus:0.568
+		Westfaelische_Nachrichten:0.483
+		heissesten:0.466
+		Karte_Topographia:0.293
+		Arbeitsjahr:0.579 
+	Gold: set(['Sieben']) 
+	Rank: 90
+
+Id: 177 Source: Xi 
+	Translation:
+		Li_Yuanchao:0.762
+		Japans_Premierminister:0.739
+		Staatspraesident_Xi:0.728
+		Jintao:0.723
+		Premier_Wen:0.721 
+	Gold: set(['Xi']) 
+	Rank: 27
+
+Id: 178 Source: Love 
+	Translation:
+		Lasst_Euch:0.798
+		Moral_Geschicht:0.786
+		Du_meinst:0.784
+		Altersmilde:0.778
+		Benimm:0.776 
+	Gold: set(['LIEBE']) 
+	Rank: 61350
+
+Id: 179 Source: Xl 
+	Translation:
+		Desigual:0.688
+		SOliver:0.658
+		Teuerster:0.655
+		Kultmarke:0.633
+		Nobelkarossen:0.632 
+	Gold: set(['XL']) 
+	Rank: 739
+
+Id: 180 Source: TWENTY 
+	Translation:
+		mindestes:0.713
+		120:0.642
+		160:0.639
+		140:0.635
+		Jadestadt:0.624 
+	Gold: set(['20', 'zwanzig']) 
+	Rank: 1480
+
+Id: 181 Source: Seventies 
+	Translation:
+		Schmuddelkind:0.740
+		Mainstream_angekommen:0.736
+		deutschen_Wohnzimmern:0.726
+		Glamourwelt:0.709
+		Wirtschaftswunderland:0.704 
+	Gold: set(['JAHREN']) 
+	Rank: 541951
+
+Id: 182 Source: Xx 
+	Translation:
+		sonniges_Gemuet:0.807
+		Worum_gehts:0.792
+		Loddar:0.782
+		floetete:0.779
+		stimmts:0.777 
+	Gold: set(['xx']) 
+	Rank: 113171
+
+Id: 183 Source: r 
+	Translation:
+		Netzfilmblog:0.751
+		Nich:0.726
+		Andere_Bedeutungen:0.724
+		public_void:0.706
+		mic:0.704 
+	Gold: set(['Forschung', 'Entwicklung']) 
+	Rank: 375093
+
+Id: 184 Source: Escudo 
+	Translation:
+		Gallardo:0.647
+		Ltda:0.628
+		Murciélago:0.624
+		Ferrocarril:0.617
+		Zonda:0.613 
+	Gold: set(['Escudo']) 
+	Rank: 1852
+
+Id: 185 Source: sr 
+	Translation:
+		Kreis_Holzminden:0.745
+		Verdi-Chef:0.697
+		Klares_Bekenntnis:0.692
+		Gemuendens:0.645
+		ueberschaubaren_Grenzen:0.632 
+	Gold: set(['SR']) 
+	Rank: 5953
+
+Id: 186 Source: TONNES 
+	Translation:
+		Lkw-Ladung:0.772
+		Oel_ausgelaufen:0.762
+		Tonnen_Kies:0.762
+		Restabfall:0.756
+		Heizoeltank:0.754 
+	Gold: set(['Tonnen']) 
+	Rank: 1770
+
+Id: 187 Source: Zaire 
+	Translation:
+		Kongo-Brazzaville:0.743
+		Afghanistan_Somalia:0.736
+		Sueden_Afrikas:0.731
+		Angola:0.728
+		Norden_Kameruns:0.718 
+	Gold: set(['Zaire']) 
+	Rank: 54
+
+Id: 188 Source: CLs 
+	Translation:
+		Kuendigen:0.742
+		versicherungstechnisch:0.697
+		privat_Versicherte:0.691
+		Schadenfall:0.684
+		Urlaubsplanung:0.670 
+	Gold: set(['Bezug', 'dar']) 
+	Rank: 48565
+
+Id: 189 Source: DG 
+	Translation:
+		Stephan_Kohler:0.747
+		Bernhard_Rohleder:0.736
+		Forschungschef:0.735
+		Triphaus:0.733
+		Nolz:0.732 
+	Gold: set(['Generaldirektion', 'GD']) 
+	Rank: 1567
+
+Id: 190 Source: Megabyte 
+	Translation:
+		guenstigsten_Tarif:0.783
+		Online-Buchung:0.765
+		PC_Tablet:0.762
+		iPhone-Besitzer:0.759
+		Telefonieren_Surfen:0.757 
+	Gold: set(['Megabyte']) 
+	Rank: 358
+
+Id: 191 Source: Francs 
+	Translation:
+		Franzoesische_Franc:0.659
+		Goldfranken:0.644
+		Club_Sandwich:0.635
+		Centimes:0.634
+		Écu:0.623 
+	Gold: set(['Francs']) 
+	Rank: 7
+
+Id: 192 Source: florins 
+	Translation:
+		hoehere_Betraege:0.684
+		Hotelrechnung:0.679
+		Ausloese:0.669
+		Spitzenpreise:0.648
+		bezahlt:0.643 
+	Gold: set(['Gulden']) 
+	Rank: 111
+
+Id: 193 Source: TRIAD 
+	Translation:
+		Umgang_Demenzkranken:0.739
+		pflegender_Angehoeriger:0.705
+		zuverlaessigen_Partner:0.695
+		aelteren_Mitbuergern:0.693
+		Seniorenberatung:0.685 
+	Gold: set(['Dreiklang']) 
+	Rank: 139449
+
+Id: 194 Source: dozen 
+	Translation:
+		Zigtausenden:0.755
+		nachtschlafender_Zeit:0.738
+		warteten_vergeblich:0.708
+		patroullieren:0.704
+		Etlichen:0.703 
+	Gold: set(['Dutzend']) 
+	Rank: 10
+
+Id: 195 Source: Dm 
+	Translation:
+		Purist:0.710
+		Unbewusst:0.681
+		Pinoeckel:0.675
+		Eleganter:0.670
+		Akzidens:0.658 
+	Gold: set(['DM']) 
+	Rank: 511725
+
+Id: 196 Source: Thousand 
+	Translation:
+		ersaufen:0.693
+		herbeizaubern:0.681
+		Schoenes_Wetter:0.670
+		Hinein:0.664
+		geruhsam:0.663 
+	Gold: set(['tausend', '000']) 
+	Rank: 1135
+
+Id: 197 Source: DOZENS 
+	Translation:
+		Katastrophentouristen:0.714
+		Feiernde:0.714
+		dreiste_Diebe:0.705
+		Bewohner_Hochhauses:0.705
+		Altenheimbewohner:0.704 
+	Gold: set(['dutzende']) 
+	Rank: 62
+
+Id: 198 Source: Nit 
+	Translation:
+		Familienforum:0.703
+		Assistenzhund:0.676
+		Erbsenzaehler:0.676
+		Veterinaerin:0.672
+		Weitere_Bedeutungen:0.671 
+	Gold: set(['vorgeworfen', 'Einsetzen', 'Machtstreben']) 
+	Rank: 85451
+
+Id: 199 Source: M 
+	Translation:
+		Modekette_H:0.685
+		R:0.661
+		Mode-Label:0.643
+		Energizer:0.628
+		E:0.625 
+	Gold: set(['Millionen']) 
+	Rank: 325085
+
+Id: 200 Source: Morgen 
+	Translation:
+		Becker:0.726
+		Hartmann:0.724
+		Mit-Organisatorin:0.720
+		Krude:0.720
+		Wehmann:0.718 
+	Gold: set(['Morgen']) 
+	Rank: 96285
+
+Id: 201 Source: metrics 
+	Translation:
+		Mettnaukur:0.794
+		Istzustand:0.773
+		Mehrwerte:0.766
+		Praxisteams:0.763
+		verbraucherfreundlich:0.763 
+	Gold: set(['Metriken']) 
+	Rank: 1035
+
+Id: 202 Source: XXVIII 
+	Translation:
+		Sachsen-Anhalt-Tages:0.658
+		20-Jahr-Jubilaeum:0.656
+		Faschingssaison:0.649
+		Ehrenamtstag:0.649
+		60-jaehrigen_Jubilaeum:0.639 
+	Gold: set(['Bezugnahme', '28', 'aufzunehmen']) 
+	Rank: 40397
+
+Id: 203 Source: EUROs 
+	Translation:
+		Internet-Haendler:0.751
+		MwSt:0.751
+		Handytarife:0.740
+		Online-Bank:0.737
+		Akzeptanzstellen:0.729 
+	Gold: set(['euro']) 
+	Rank: 28837
+
+Id: 204 Source: Metres 
+	Translation:
+		vorbeigerauscht:0.655
+		boeiger_Wind:0.605
+		gluehender_Hitze:0.604
+		heranarbeiten:0.603
+		gerauscht:0.602 
+	Gold: set(['Metern', 'meter']) 
+	Rank: 515
+
+Id: 205 Source: TSEs 
+	Translation:
+		multiresistente_Keime:0.820
+		Uebergewicht_Bewegungsmangel:0.808
+		Medizinische_Bedeutung:0.807
+		Humane_Papillomviren:0.805
+		psychische_Leiden:0.796 
+	Gold: set(['TSE']) 
+	Rank: 422091
+
+Id: 206 Source: ringgit 
+	Translation:
+		Rupiah:0.697
+		Temasek:0.679
+		Wirtschaftszeitung_Nikkei:0.673
+		Oelfoerderer:0.663
+		Staatsfonds:0.661 
+	Gold: set(['Ringgit', 'Zeigt', 'Wiederum', 'malaiischen']) 
+	Rank: 123
+
+Id: 207 Source: SIXTEEN 
+	Translation:
+		feierwuetige:0.742
+		Gaeubodenfest:0.667
+		unruhige_Nacht:0.667
+		Schulfrei:0.655
+		fleissig_geprobt:0.636 
+	Gold: set(['sechzehn', '16']) 
+	Rank: 13043
+
+Id: 208 Source: fifty 
+	Translation:
+		hochrechnet:0.735
+		drohen_Haftstrafen:0.671
+		Spendenergebnis:0.661
+		fuenfzig:0.655
+		Rentenalter_erreicht:0.649 
+	Gold: set(['50']) 
+	Rank: 96
+
+Id: 209 Source: decade 
+	Translation:
+		ostafrikanische_Land:0.732
+		Beginn_Jahrtausends:0.720
+		Anfang_Jahrtausends:0.701
+		geradezu_explodiert:0.699
+		Sozialproteste:0.697 
+	Gold: set(['Jahrzehnt']) 
+	Rank: 6
+
+Id: 210 Source: Krona 
+	Translation:
+		taumelnde:0.629
+		auseinanderbricht:0.625
+		schwarzes_Loch:0.594
+		Erdenbewohner:0.586
+		intergalaktische:0.584 
+	Gold: set(['Krone']) 
+	Rank: 7715
+
+Id: 211 Source: PAs 
+	Translation:
+		Wiedereinsteigerinnen:0.747
+		Praxisteam:0.746
+		Seniorenbegleiter:0.745
+		Verah:0.737
+		Honoraraerzte:0.734 
+	Gold: set(['pas']) 
+	Rank: 381683
+
+Id: 212 Source: MINUTES 
+	Translation:
+		Live-Interview:0.668
+		Raúl_Richter:0.641
+		Quotenhit:0.639
+		Auftaktfolge:0.633
+		Britt_Hagedorn:0.629 
+	Gold: set(['Protokoll', 'Minuten']) 
+	Rank: 721
+
+Id: 213 Source: Fours 
+	Translation:
+		Bestens_gelaunt:0.735
+		Dirndl-:0.728
+		14-_15-Jaehrigen:0.724
+		Maennerabend:0.721
+		Mini-Marathonis:0.713 
+	Gold: set(['Sache', 'Einer', 'Meinung']) 
+	Rank: 177511
+
+Id: 214 Source: bases 
+	Translation:
+		Global_Hawks:0.737
+		Datenautobahnen:0.733
+		Kabel_verlegen:0.720
+		Asylbewerberunterkuenfte:0.715
+		neuralgischen_Stellen:0.709 
+	Gold: set(['Grundlagen', 'Rechtsgrundlagen']) 
+	Rank: 14860
+
+Id: 215 Source: Advantages 
+	Translation:
+		rechtliche_Huerden:0.787
+		intelligente_Loesungen:0.784
+		Risiken_bergen:0.765
+		Kinderbetreuungsmoeglichkeiten:0.764
+		Einsparungsmoeglichkeiten:0.763 
+	Gold: set(['Vorteile']) 
+	Rank: 30
+
+Id: 216 Source: fens 
+	Translation:
+		Idylle_pur:0.765
+		Schwammerlsucher:0.757
+		Art_Fortbewegung:0.737
+		Meister_Adebar:0.734
+		gruenen_Oase:0.733 
+	Gold: set(['Orte']) 
+	Rank: 21927
+
+Id: 217 Source: factor 
+	Translation:
+		Unterhaltungsfaktor:0.750
+		geringste_Problem:0.743
+		wegzudiskutieren:0.740
+		vergleichweise:0.738
+		Unwaegbarkeit:0.731 
+	Gold: set(['Faktor']) 
+	Rank: 10
+
+Id: 218 Source: 8 
+	Translation:
+		Posthof_Linz:0.735
+		Naechste_Auffuehrungen:0.708
+		11-19_Uhr:0.702
+		taschDER_STANDARD:0.700
+		Forsa_befragte:0.692 
+	Gold: set(['8']) 
+	Rank: 3476
+
+Id: 219 Source: Bit 
+	Translation:
+		Auto-Nachrichten:0.848
+		DuesseldorfEs:0.811
+		Probiert:0.776
+		Irgend:0.772
+		herausgerutscht:0.763 
+	Gold: set(['Etwas']) 
+	Rank: 358
+
+Id: 220 Source: thousands 
+	Translation:
+		Hundertausende:0.751
+		kraeftig_anpacken:0.726
+		zigtausend:0.677
+		Zigtausende:0.676
+		zusammenkaemen:0.676 
+	Gold: set(['Tausende']) 
+	Rank: 10
+
+Id: 221 Source: Digits 
+	Translation:
+		Geistesblitze:0.679
+		Penibel:0.678
+		herausgepickt:0.676
+		sekundenschnell:0.667
+		Brisantes:0.658 
+	Gold: set(['Ziffern']) 
+	Rank: 19806
+
+Id: 222 Source: decilitre 
+	Translation:
+		Diabetes-Risiko:0.782
+		Injektionsloesung:0.755
+		100_mg:0.748
+		Nikotinpflaster:0.739
+		Clotrimazol:0.738 
+	Gold: set(['morgens', 'Keinen', 'Eines', 'Tropfen']) 
+	Rank: 22227
+
+Id: 223 Source: Thirty 
+	Translation:
+		doppelte_Anzahl:0.697
+		Briefwahlvorstaende:0.685
+		Hassbergkreis:0.670
+		fuenfzehn:0.664
+		zwanzig:0.658 
+	Gold: set(['30']) 
+	Rank: 548
+
+Id: 224 Source: Kilogram 
+	Translation:
+		Schoko-Osterhasen:0.761
+		Magerquark:0.758
+		Trinkmilch:0.753
+		Gramm_Zucker:0.738
+		Milcheis:0.736 
+	Gold: set(['KG', 'Kilogramm']) 
+	Rank: 3956
+
+Id: 225 Source: NAIL 
+	Translation:
+		Gesundheitsexpertin:0.696
+		Stefan_Taschner:0.681
+		Martina_Renner:0.632
+		Eingebracht:0.627
+		Christel_Happach-Kasan:0.623 
+	Gold: set(['Nagel']) 
+	Rank: 39729
+
+Id: 226 Source: b 
+	Translation:
+		Wiso:0.645
+		WKZ:0.615
+		StBVV:0.614
+		Fair_Value:0.597
+		I_ZR:0.585 
+	Gold: set(['b']) 
+	Rank: 1905
+
+Id: 227 Source: XIV 
+	Translation:
+		imm:0.638
+		Sahnestueck:0.626
+		Aus_gegebenem:0.623
+		Zeppelin_Museum:0.610
+		Ausgefallen:0.606 
+	Gold: set(['XIV']) 
+	Rank: 2515
+
+Id: 228 Source: XIX 
+	Translation:
+		denkwuerdiger_Tag:0.603
+		Hoehenrausch:0.585
+		Jahrhundertwerk:0.570
+		einschneidendste:0.545
+		Wiederauflage:0.545 
+	Gold: set(['XIX']) 
+	Rank: 433
+
+Id: 229 Source: X 
+	Translation:
+		Russisch_Roulette:0.683
+		Daumen_runter:0.680
+		Six-Pack:0.673
+		Njet:0.665
+		Silberstreif:0.641 
+	Gold: set(['X']) 
+	Rank: 34
+
+Id: 230 Source: Quartet 
+	Translation:
+		Dialogpartner:0.615
+		haerteren_Gangart:0.615
+		Dialog:0.615
+		Interpretation:0.606
+		Syrienkonflikt:0.605 
+	Gold: set(['Quartett', 'Quartetts']) 
+	Rank: 2441
+
+Id: 231 Source: prime 
+	Translation:
+		Denn:0.707
+		-und:0.670
+		Sportspektakel:0.663
+		bestimmende_Thema:0.654
+		Einziges_Problem:0.654 
+	Gold: set(['Premierminister']) 
+	Rank: 445955
+
+Id: 232 Source: SEVENTEEN 
+	Translation:
+		Komasaeufer:0.715
+		16-_18-Jaehrigen:0.710
+		Schule_geschwaenzt:0.709
+		miesesten:0.685
+		Tigerbabys:0.680 
+	Gold: set(['siebzehn', '17']) 
+	Rank: 6344
+
+Id: 233 Source: trios 
+	Translation:
+		unterschiedlichen_Charaktere:0.751
+		Sportliche_Laufbahn:0.741
+		Zur_Auflockerung:0.737
+		Taenze_einstudiert:0.735
+		Applaus_ernteten:0.730 
+	Gold: set(['HAT']) 
+	Rank: 506735
+
+Id: 234 Source: h 
+	Translation:
+		pk:0.682
+		pause:0.619
+		Periodensystem_steht:0.574
+		<_p:0.568
+		HBF:0.561 
+	Gold: set(['H']) 
+	Rank: 5945
+
+Id: 235 Source: ars 
+	Translation:
+		Wissenschaftliches_Werk:0.731
+		Beschreibung_Kaefers:0.708
+		Einordnung_Gesamtwerk:0.705
+		Literarische_Rezeption:0.687
+		Friedrich_Borries:0.682 
+	Gold: set(['ARS']) 
+	Rank: 170055
+
+Id: 236 Source: Milligram 
+	Translation:
+		Kannte:0.723
+		Weiterer_Lebenslauf:0.706
+		Weiterer_Lebensweg:0.671
+		Hasch:0.654
+		Genussmensch:0.654 
+	Gold: set(['Milligramm']) 
+	Rank: 85027
+
+Id: 237 Source: XVII 
+	Translation:
+		Hagener_Burg:0.652
+		Plakatausstellung:0.617
+		spektakulaeren_Fund:0.612
+		Heuson-Museum:0.612
+		Holocaust-Denkmal:0.595 
+	Gold: set(['XVII']) 
+	Rank: 7120
+
+Id: 238 Source: grammes 
+	Translation:
+		Konsumeinheiten:0.756
+		Gramm_Heroin:0.733
+		Ecstasy-Tabletten:0.732
+		Gramm_Cannabis:0.723
+		Kilogramm_Amphetamin:0.723 
+	Gold: set(['Gramm']) 
+	Rank: 20
+
+Id: 239 Source: ban 
+	Translation:
+		Haertere_Strafen:0.788
+		Verbot:0.768
+		EU-Urteil:0.755
+		Raucherkneipen:0.747
+		schaerfere_Gesetze:0.742 
+	Gold: set(['verbot']) 
+	Rank: 354
+
+Id: 240 Source: SENS 
+	Translation:
+		Higgs_Englert:0.636
+		Boersenprospekt:0.623
+		Gottesteilchen:0.615
+		Faradays:0.595
+		Berners-Lee:0.592 
+	Gold: set(['Sens']) 
+	Rank: 378557
+
+Id: 241 Source: grad 
+	Translation:
+		Mathe-Lehrer:0.757
+		FSJ-ler:0.719
+		BWL-Student:0.700
+		Schuelerpraktikum:0.695
+		Akademische_Laufbahn:0.692 
+	Gold: set(['vorbereitete']) 
+	Rank: 48949
+
+Id: 242 Source: ROOTS 
+	Translation:
+		Multi-Kulti:0.731
+		Multikulti:0.668
+		Operndorf:0.664
+		Sonnenseite_Lebens:0.661
+		zartes_Pflaenzchen:0.661 
+	Gold: set(['Wurzeln']) 
+	Rank: 87
+
+Id: 243 Source: SecTor 
+	Translation:
+		Re_publica:0.739
+		Podiumsveranstaltung:0.716
+		tazlab:0.694
+		Cryptopartys:0.693
+		Hackathon:0.691 
+	Gold: set(['Sektor']) 
+	Rank: 283687
+
+Id: 244 Source: j 
+	Translation:
+		Safer:0.606
+		VIR:0.599
+		Fast_Forward:0.598
+		Medi:0.598
+		TCK:0.592 
+	Gold: set(['j']) 
+	Rank: 2413
+
+Id: 245 Source: xxiii 
+	Translation:
+		Exzessive:0.762
+		eindaemmt:0.748
+		Generell_gelte:0.740
+		ueberhand_nehmen:0.733
+		modernen_Arbeitswelt:0.724 
+	Gold: set(['XXIII']) 
+	Rank: 243155
+
+Id: 246 Source: COORDINATES 
+	Translation:
+		WirtschaftsBlatt_Print-Ausgabe:0.816
+		foto_fkn:0.807
+		−_pnp:0.803
+		Tino_Zippel:0.797
+		Deppendorfs_Woche:0.713 
+	Gold: set(['koordiniert']) 
+	Rank: 29560
+
+Id: 247 Source: kilos 
+	Translation:
+		Kisten_Bier:0.742
+		Kaesten_Bier:0.737
+		Flaschen_Wodka:0.713
+		Packungen_Zigaretten:0.712
+		Durchschnittsdeutsche:0.690 
+	Gold: set(['Kilo']) 
+	Rank: 10
+
+Id: 248 Source: EMU 
+	Translation:
+		KOMMENTAR:0.738
+		Kai_Carstensen:0.716
+		BruesselWien:0.715
+		LUXEMBURG:0.705
+		Zypern-Hilfen:0.703 
+	Gold: set(['WWU']) 
+	Rank: 1677
+
+Id: 249 Source: Twenties 
+	Translation:
+		laengst_entwachsen:0.783
+		Heimeligkeit:0.746
+		Tante_Else:0.738
+		Schlips_Kragen:0.737
+		Rena_Schwarz:0.733 
+	Gold: set(['Zwanziger']) 
+	Rank: 35713
+
+Id: 250 Source: sen 
+	Translation:
+		Vorgezogene:0.599
+		zusaetzlich_AfD:0.526
+		leben_Alleinstehende:0.500
+		Hispanics_Lateinamerikaner:0.499
+		48,5_Prozent:0.491 
+	Gold: set(['sen']) 
+	Rank: 269120
+
+Id: 251 Source: SECONDS 
+	Translation:
+		Promi-Party:0.724
+		Kilo_abgespeckt:0.723
+		Youtube-Star:0.714
+		Sport-Stars:0.703
+		Natalia_Osada:0.702 
+	Gold: set(['Sekunden']) 
+	Rank: 667
+
+Id: 252 Source: Denominator 
+	Translation:
+		Serioes:0.760
+		Vernuenftig:0.753
+		Billigste:0.744
+		kleinem_Geldbeutel:0.741
+		Rechenexempel:0.738 
+	Gold: set(['Nenner']) 
+	Rank: 5402
+
+Id: 253 Source: Tons 
+	Translation:
+		Kistenweise:0.742
+		angekarrt:0.740
+		Tonnen_Abfall:0.732
+		Tonnenweise:0.727
+		tonnenweise:0.716 
+	Gold: set(['Tonnen']) 
+	Rank: 1036
+
+Id: 254 Source: Cubit 
+	Translation:
+		Rebele:0.660
+		Hack:0.630
+		Kripo-Chef:0.622
+		Kollege:0.617
+		Kompromisslos:0.605 
+	Gold: set(['Luft', 'Kubikmeter']) 
+	Rank: 137546
+
+Id: 255 Source: 3 
+	Translation:
+		5:0.759
+		3:0.738
+		4:0.736
+		0111:0.686
+		tgl:0.684 
+	Gold: set(['3']) 
+	Rank: 2
+
+Id: 256 Source: finger 
+	Translation:
+		blauen_Fleck:0.744
+		rausziehen:0.727
+		kauend:0.725
+		schnippt:0.720
+		gezuckt:0.717 
+	Gold: set(['finger']) 
+	Rank: 83748
+
+Id: 257 Source: FRACTION 
+	Translation:
+		Deckungsbeitrag:0.629
+		Vermoegenswert:0.612
+		Sonstige_Informationen:0.187
+		·_roe:0.058
+		Traeger_Klinggraeff-Medaille:0.024 
+	Gold: set(['Bruchteil']) 
+	Rank: 253
+
+Id: 258 Source: Peck 
+	Translation:
+		Gimple:0.701
+		Wlaschiha:0.694
+		Tourguide:0.687
+		Helberg:0.677
+		Jahraus:0.674 
+	Gold: set(['hackt', 'KEIN', 'Auge']) 
+	Rank: 159354
+
+Id: 259 Source: HOMER 
+	Translation:
+		Kurschatten:0.686
+		Joyland:0.680
+		Grylls:0.643
+		Bunyan:0.643
+		LondonBerlin:0.642 
+	Gold: set(['Homer']) 
+	Rank: 287
+
+Id: 260 Source: Guilder 
+	Translation:
+		Roetenbacher:0.645
+		Dicht_gefolgt:0.642
+		Jérôme_Adjallé:0.635
+		Luftikus:0.634
+		Essensgutschein:0.631 
+	Gold: set(['Gulden']) 
+	Rank: 19548
+
+Id: 261 Source: Weights 
+	Translation:
+		Grenzwerte_eingehalten:0.710
+		Herkunftsnachweise:0.706
+		Laermwerte:0.692
+		regelmaessigen_Kontrollen:0.691
+		Degression:0.679 
+	Gold: set(['Gewichte']) 
+	Rank: 4325
+
+Id: 262 Source: dividend 
+	Translation:
+		Telekom-Branche:0.813
+		Buergerdividende:0.778
+		Strategieschwenk:0.775
+		Milliardeneinnahmen:0.774
+		Fitschen_Jain:0.772 
+	Gold: set(['Dividende']) 
+	Rank: 539
+
+Id: 263 Source: league 
+	Translation:
+		Spielersuche:0.727
+		Kader_verkleinern:0.725
+		Begehrlichkeiten_geweckt:0.710
+		Ticketboerse:0.706
+		deutschen_Eishockeys:0.697 
+	Gold: set(['Liga']) 
+	Rank: 145
+
+Id: 264 Source: c 
+	Translation:
+		aktion:0.584
+		CMR:0.565
+		Kategorien_A:0.543
+		Non-Profit-Organisation:0.541
+		Benefits:0.534 
+	Gold: set(['c']) 
+	Rank: 1005
+
+Id: 265 Source: PSI 
+	Translation:
+		Bundesumweltamt:0.746
+		Steuerliche_Behandlung:0.734
+		Kampf_Malaria:0.728
+		ICCT:0.707
+		Greenpeace-Studie:0.705 
+	Gold: set(['Psi']) 
+	Rank: 99219
+
+Id: 266 Source: last 
+	Translation:
+		Dreieinhalb_Monate:0.718
+		truebt_Stimmung:0.711
+		baden_gegangen:0.709
+		Puste_ausgegangen:0.706
+		achtbar_geschlagen:0.695 
+	Gold: set(['letzten']) 
+	Rank: 18
+
+Id: 267 Source: Yen 
+	Translation:
+		Finanzminister_Lou:0.724
+		TOKIO_dpa-AFX:0.696
+		Won:0.693
+		Jiwei:0.684
+		Investmentbank_Equinet:0.678 
+	Gold: set(['Yen']) 
+	Rank: 28
+
+Id: 268 Source: thou 
+	Translation:
+		Wollt_Ihr:0.780
+		moechtet:0.745
+		Bringe:0.740
+		Schaffe:0.736
+		Scheissdreck:0.726 
+	Gold: set(['DU']) 
+	Rank: 43603
+
+Id: 269 Source: Hectare 
+	Translation:
+		Grob_geschaetzt:0.739
+		Hektar_angebaut:0.731
+		Abholung_bereit:0.700
+		dazukaufen:0.696
+		Ausgewiesen:0.680 
+	Gold: set(['Hektar']) 
+	Rank: 3403
+
+Id: 270 Source: hao 
+	Translation:
+		Muhlis:0.712
+		Provinz_Quang:0.705
+		Dinh:0.703
+		Duong:0.702
+		Hing:0.690 
+	Gold: set(['Gegen', 'Hao']) 
+	Rank: 1427
+
+Id: 271 Source: deficits 
+	Translation:
+		Staatspleiten:0.824
+		Konjunkturmassnahmen:0.798
+		Turbulenzen_Finanzmaerkten:0.797
+		Konsumlust:0.797
+		alternde_Bevoelkerung:0.795 
+	Gold: set(['Defizite']) 
+	Rank: 1474
+
+Id: 272 Source: s 
+	Translation:
+		IHRE:0.667
+		Foto_Screenshot:0.640
+		WIE:0.624
+		Sheryl_Sandberg:0.621
+		Zeitschrift_Bravo:0.619 
+	Gold: set(['Des']) 
+	Rank: 19332
+
+Id: 273 Source: figures 
+	Translation:
+		Boersenexperten:0.743
+		Umfragezahlen:0.738
+		Zahlen:0.723
+		nuechternen_Zahlen:0.718
+		interaktive_Grafik:0.715 
+	Gold: set(['Zahlen']) 
+	Rank: 3
+
+Id: 274 Source: Candle 
+	Translation:
+		Schokohasen:0.714
+		Geburtstagskuchen:0.707
+		Raeucherstaebchen:0.705
+		dufteten:0.705
+		Toertchen:0.697 
+	Gold: set(['Kerze']) 
+	Rank: 813
+
+Id: 275 Source: cm 
+	Translation:
+		Grad-Marke:0.703
+		¤:0.679
+		Wasserstand_Donau:0.670
+		000er-Marke:0.666
+		Meldestufen:0.662 
+	Gold: set(['CM']) 
+	Rank: 227439
+
+Id: 276 Source: point 
+	Translation:
+		umso_aergerlicher:0.697
+		deutliche_Ansage:0.696
+		heisse_Kiste:0.686
+		schoene_Momentaufnahme:0.679
+		kleines_Trostpflaster:0.679 
+	Gold: set(['punkt']) 
+	Rank: 16093
+
+Id: 277 Source: CDSS 
+	Translation:
+		Praxen_Kliniken:0.802
+		ambulante_Betreuung:0.759
+		Kita-Besuch:0.754
+		Spitalsambulanzen:0.753
+		Pflegebeduerftigen_Angehoerigen:0.751 
+	Gold: set(['CDs']) 
+	Rank: 320828
+
+Id: 278 Source: pole 
+	Translation:
+		Schalter_umgelegt:0.707
+		flott_voran:0.679
+		Angriffsmodus:0.678
+		sperrangelweit_offen:0.663
+		crasht:0.655 
+	Gold: set(['pole']) 
+	Rank: 408987
+
+Id: 279 Source: KMS 
+	Translation:
+		Landratsamt_Schwandorf:0.631
+		Jettinger:0.582
+		ehrt_langjaehrige:0.574
+		Schwarzenbeker:0.565
+		Viechtacher:0.559 
+	Gold: set(['km']) 
+	Rank: 318725
+
+Id: 280 Source: cs 
+	Translation:
+		KONTAKT:0.718
+		Nemetschek_AG:0.672
+		via_Getty:0.671
+		Blancco:0.665
+		EmittentHerausgeber:0.664 
+	Gold: set(['CS']) 
+	Rank: 13724
+
+Id: 281 Source: Hundred 
+	Translation:
+		soundso:0.709
+		draufgepackt:0.695
+		zehre:0.694
+		Batzen_Geld:0.678
+		Besuchten:0.666 
+	Gold: set(['hundert']) 
+	Rank: 3368
+
+Id: 282 Source: LEAGUES 
+	Translation:
+		Campino_Co:0.765
+		Aalen_lem:0.760
+		sportliche_Grossereignis:0.757
+		Langlauf_Maenner:0.752
+		schoenste_Jahreszeit:0.751 
+	Gold: set(['Ligen']) 
+	Rank: 3016
+
+Id: 283 Source: Lambert 
+	Translation:
+		Lambert:0.700
+		Bliemeister:0.699
+		Sharrow:0.685
+		Clement:0.684
+		Chatton:0.675 
+	Gold: set(['Lambert']) 
+	Rank: 1
+
+Id: 284 Source: DUCKS 
+	Translation:
+		Freudenspruenge:0.741
+		golfen:0.731
+		Tommer:0.729
+		Truebsal_blasen:0.725
+		Brummschaedel:0.722 
+	Gold: set(['Enten']) 
+	Rank: 4064
+
+Id: 285 Source: acre 
+	Translation:
+		Maststall:0.766
+		Bau-_Gartenmarkt:0.759
+		Poing-Sued:0.733
+		Guellebehaelter:0.724
+		abgezwackt:0.720 
+	Gold: set(['PRO', 'Acre']) 
+	Rank: 18331
+
+Id: 286 Source: Watt 
+	Translation:
+		Vierte_Runde:0.739
+		Callanan:0.672
+		Dellinger:0.670
+		Crean:0.655
+		Fyfe:0.643 
+	Gold: set(['watt']) 
+	Rank: 237568
+
+Id: 287 Source: LIRA 
+	Translation:
+		Kita_Hort:0.650
+		Strassenkinderprojekt:0.643
+		Ludwig-Duerr-Schule:0.640
+		Fluechtlingsfrauen:0.638
+		Maria_Tann:0.634 
+	Gold: set(['Lira']) 
+	Rank: 110907
+
+Id: 288 Source: FACTORS 
+	Translation:
+		Aktienanlage:0.793
+		ueberbordende_Buerokratie:0.789
+		Alterung_Bevoelkerung:0.786
+		Verbraucherverhalten:0.785
+		Wirtschaftlicher_Erfolg:0.781 
+	Gold: set(['Faktoren']) 
+	Rank: 629
+
+Id: 289 Source: kilograms 
+	Translation:
+		Kilogramm_Mehl:0.761
+		Kilo_Cannabis:0.760
+		Kilo_Heroin:0.759
+		Ecstasy-Pillen:0.754
+		Kilogramm_gewogen:0.753 
+	Gold: set(['Kilogramm']) 
+	Rank: 29
+
+Id: 290 Source: CD 
+	Translation:
+		App-Tipp:0.754
+		Merkzettel:0.728
+		Urlaubslektuere:0.725
+		kalter_Kaffee:0.715
+		Klingelknopf:0.712 
+	Gold: set(['cd']) 
+	Rank: 170198
+
+Id: 291 Source: SECOND 
+	Translation:
+		Lotto-Gewinner:0.754
+		menschliche_Tragoedie:0.732
+		Allerschlimmste:0.723
+		dazwischengekommen:0.696
+		schliesslich:0.694 
+	Gold: set(['zweite', 'Zweiten']) 
+	Rank: 757
+
+Id: 292 Source: Points 
+	Translation:
+		abstempeln_lassen:0.721
+		Fairer:0.690
+		gleichzeitig:0.689
+		einplant:0.688
+		Mengenrabatt:0.679 
+	Gold: set(['punkte']) 
+	Rank: 237
+
+Id: 293 Source: Ems 
+	Translation:
+		Stiska:0.703
+		Baederchef:0.680
+		Braunisch:0.650
+		Barby_l:0.648
+		Kuh_Eis:0.645 
+	Gold: set(['EWS']) 
+	Rank: 74921
+
+Id: 294 Source: CDs 
+	Translation:
+		Downloaden:0.762
+		Laptops_Handys:0.754
+		Markenklamotten:0.754
+		500-Euro-Scheine:0.753
+		Gedrucktes:0.750 
+	Gold: set(['CDs']) 
+	Rank: 55
+
+Id: 295 Source: POUNDS 
+	Translation:
+		vorrechnet:0.689
+		Kurzarbeiter:0.677
+		paeppelt:0.637
+		25-fache:0.602
+		Mill:0.599 
+	Gold: set(['Pfund']) 
+	Rank: 101
+
+Id: 296 Source: QUINTET 
+	Translation:
+		High_Five:0.767
+		Theaterstuebchen:0.766
+		nachdenkliche_Toene:0.754
+		Igor_Levit:0.754
+		bestens_aufgelegte:0.750 
+	Gold: set(['Quintett']) 
+	Rank: 1954
+
+Id: 297 Source: Dollar 
+	Translation:
+		Top-Bonitaet:0.793
+		Profi-Investoren:0.791
+		Weltboersen:0.787
+		Marktturbulenzen:0.779
+		Festverzinslichen:0.776 
+	Gold: set(['Dollar']) 
+	Rank: 4041
+
+Id: 298 Source: Number 
+	Translation:
+		nachgezaehlt:0.656
+		Tippschein:0.638
+		Frist_abgelaufen:0.637
+		Meldet:0.630
+		nachgesehen:0.609 
+	Gold: set(['Reihe']) 
+	Rank: 1352
+
+Id: 299 Source: Billions 
+	Translation:
+		Steuermilliarden:0.793
+		Milliardenumsaetze:0.770
+		verzocken:0.759
+		Finanzjongleure:0.744
+		Milliardenbetraegen:0.744 
+	Gold: set(['Milliarden']) 
+	Rank: 1616
+
+Id: 300 Source: thousandth 
+	Translation:
+		Jede_Spielerin:0.724
+		hochgegriffen:0.712
+		Zahlenspiel:0.700
+		rausfliegt:0.675
+		PS-Zahl:0.665 
+	Gold: set(['Tausendstel']) 
+	Rank: 465
+
+Id: 301 Source: viii 
+	Translation:
+		Sinnvoller_waere:0.776
+		Moeglichkeiten_auszuschoepfen:0.748
+		Allem_voran:0.710
+		ganzes_Paket:0.703
+		buergerfreundlichen:0.697 
+	Gold: set(['VIII']) 
+	Rank: 68073
+
+Id: 302 Source: Cola 
+	Translation:
+		Wurstsemmel:0.787
+		Weinschorle:0.781
+		Analogkaese:0.753
+		Energydrink:0.751
+		Supermarktregal:0.744 
+	Gold: set(['Cola']) 
+	Rank: 490
+
+Id: 303 Source: ix 
+	Translation:
+		Deutschlandweite:0.649
+		Miserable:0.574
+		Ebendiese:0.556
+		Vorangetrieben:0.544
+		aufgrund_rechtlicher:0.519 
+	Gold: set(['IX']) 
+	Rank: 470
+
+Id: 304 Source: Millimetre 
+	Translation:
+		afp_AZ:0.722
+		Absolutes_Highlight:0.721
+		Voellig_losgeloest:0.712
+		siehe_Fotostrecke:0.705
+		Geist_aufgab:0.677 
+	Gold: set(['Millimeter']) 
+	Rank: 22494
+
+Id: 305 Source: pound 
+	Translation:
+		Juli-Kontrakt:0.676
+		Pfund:0.664
+		Cents_je:0.635
+		Sorte_Brent:0.614
+		je_Tonne:0.607 
+	Gold: set(['Pfund']) 
+	Rank: 2
+
+Id: 306 Source: century 
+	Translation:
+		wunderbaren_Freundschaft:0.682
+		Erdboden_verschwunden:0.664
+		Dreivierteljahrhundert:0.662
+		Dreissigjaehrige:0.655
+		Glaubwuerdigkeitskrise:0.638 
+	Gold: set(['Jahrhundert', 'Jahrhunderts']) 
+	Rank: 157
+
+Id: 307 Source: cents 
+	Translation:
+		draufgesattelt:0.743
+		happige:0.698
+		Laedele:0.694
+		dazuverdient:0.662
+		altersgemischten_Gruppe:0.646 
+	Gold: set(['cent']) 
+	Rank: 65153
+
+Id: 308 Source: characteristics 
+	Translation:
+		vorfinde:0.761
+		Puenktlichkeit_Zuverlaessigkeit:0.756
+		realistisch_einzuschaetzen:0.749
+		insbesonders:0.735
+		respektvoller_Umgang:0.731 
+	Gold: set(['Merkmale']) 
+	Rank: 13
+
+Id: 309 Source: iv 
+	Translation:
+		s_Kasten:0.777
+		beruecksichtig:0.750
+		Geld_zurueckverlangen:0.747
+		Haus-_Wohnungseigentuemer:0.744
+		schlechter_dastehen:0.744 
+	Gold: set(['iV']) 
+	Rank: 6654
+
+Id: 310 Source: KG 
+	Translation:
+		LG_Feldkirch:0.670
+		Agit:0.663
+		Soebbeke:0.655
+		LG_Korneuburg:0.650
+		LG_Wels:0.650 
+	Gold: set(['KG']) 
+	Rank: 105
+
+Id: 311 Source: minim 
+	Translation:
+		gelebte_Solidaritaet:0.722
+		Fleissigen:0.667
+		allerwichtigste:0.666
+		Haelfte_Erloeses:0.650
+		umme:0.588 
+	Gold: set(['Dabei']) 
+	Rank: 239171
+
+Id: 312 Source: Sixth 
+	Translation:
+		Symbolischer:0.616
+		Buergergesellschaft:0.590
+		Politischen:0.573
+		kulturpolitisches:0.562
+		Kraftzentrum:0.550 
+	Gold: set(['Sechsten', 'sechste']) 
+	Rank: 2248
+
+Id: 313 Source: SOM 
+	Translation:
+		Wissenschaftliche_Leistungen:0.740
+		Internationaler_Vergleich:0.730
+		Regionale_2016:0.704
+		sperrigen_Titel:0.700
+		Lage_Naturraum:0.696 
+	Gold: set(['Radiosendungen']) 
+	Rank: 405933
+
+Id: 314 Source: aUS 
+	Translation:
+		Terrornetzwerkes_Al-Kaida:0.788
+		Al-Kaida-Fuehrer:0.787
+		US-Drohnenangriffen:0.774
+		Al-Schabab:0.773
+		Aiman_al-Sawahiri:0.772 
+	Gold: set(['AUS', 'Beiden', 'Diesem', 'fall']) 
+	Rank: 208549
+
+Id: 315 Source: 9 
+	Translation:
+		Dritte_Feindfahrt:0.712
+		Kulturradio_RBB:0.687
+		Zweite_Feindfahrt:0.680
+		Mitwoch:0.660
+		16022013:0.656 
+	Gold: set(['9']) 
+	Rank: 2143
+
+Id: 316 Source: grain 
+	Translation:
+		Billigfleisch:0.802
+		Lebensmittel_weggeworfen:0.778
+		Umwelt_zuliebe:0.770
+		Sojaschrot:0.764
+		Biofleisch:0.762 
+	Gold: set(['Getreide']) 
+	Rank: 51
+
+Id: 317 Source: XXI 
+	Translation:
+		RIO_DE:0.679
+		INTA:0.573
+		Fuerza_Aérea:0.571
+		A_Bola:0.570
+		Menschenrechtszentrum:0.570 
+	Gold: set(['XXI']) 
+	Rank: 100
+
+Id: 318 Source: Coefficients 
+	Translation:
+		Preisanpassungen:0.746
+		quantifizierbar:0.744
+		schwer_einschaetzbar:0.741
+		Preisdifferenzen:0.736
+		Schwankende:0.734 
+	Gold: set(['Koeffizienten']) 
+	Rank: 2440
+
+Id: 319 Source: XVI 
+	Translation:
+		tausenden_Glaeubigen:0.727
+		Weltjugendtag_Brasilien:0.722
+		Amtseinfuehrung_Papst:0.718
+		Pius-Brueder:0.706
+		Globalisierung_Gleichgueltigkeit:0.701 
+	Gold: set(['XVI']) 
+	Rank: 1195
+
+Id: 320 Source: Curie 
+	Translation:
+		Eric_Kandel:0.646
+		Claude_Bernard:0.623
+		Louis_Gay-Lussac:0.620
+		Dantzig:0.617
+		Chemie-Nobelpreistraeger:0.617 
+	Gold: set(['Curie']) 
+	Rank: 230
+
+Id: 321 Source: VS 
+	Translation:
+		Steffen_Hallaschka:0.568
+		zweifachem:0.541
+		Oe:0.538
+		folgenden_Sitzverteilungen:0.514
+		AZ:0.507 
+	Gold: set(['Gegen']) 
+	Rank: 6675
+
+Id: 322 Source: ARe 
+	Translation:
+		Greven_Marketing:0.703
+		Muensterland_eV:0.702
+		Lowe_GGK:0.701
+		Neue_OZ:0.695
+		Lamilux:0.694 
+	Gold: set(['Sind']) 
+	Rank: 420676
+
+Id: 323 Source: IN 
+	Translation:
+		Fragestellern:0.705
+		Potsdamern:0.630
+		ungeteilte_Aufmerksamkeit:0.613
+		siehe_unten:0.610
+		gewoehnlich:0.592 
+	Gold: set(['IM', 'IN']) 
+	Rank: 37801
+
+Id: 324 Source: yuan 
+	Translation:
+		China-Blog:0.747
+		Yuan:0.737
+		Renminbi:0.714
+		PetroChina:0.712
+		China:0.706 
+	Gold: set(['Yuan']) 
+	Rank: 2
+
+Id: 325 Source: DECADES 
+	Translation:
+		laengst_passé:0.729
+		arg_gelitten:0.719
+		Schlimmstes:0.714
+		spurlos_vorbeigegangen:0.713
+		durchmache:0.704 
+	Gold: set(['Jahrzehnten', 'Jahrzehnte']) 
+	Rank: 158
+
+Id: 326 Source: DIMENSION 
+	Translation:
+		−_hpd:0.841
+		−_ina:0.841
+		2015_CEST:0.808
+		Klinische_Kriterien:0.797
+		Dienst_Generalsrang:0.790 
+	Gold: set(['Dimension']) 
+	Rank: 19366
+
+Id: 327 Source: i 
+	Translation:
+		Anmerk:0.725
+		LeFloid:0.667
+		Apple-Gruender:0.658
+		Bublé:0.624
+		Gold_Experience:0.616 
+	Gold: set(['ICH']) 
+	Rank: 39329
+
+Id: 328 Source: Vi 
+	Translation:
+		Klein_oho:0.795
+		Foto_nh:0.784
+		Neubuergerin:0.772
+		Kitaleiterin:0.750
+		Leiterin_Tourist-Information:0.741 
+	Gold: set(['vi']) 
+	Rank: 18229
+
+Id: 329 Source: rupee 
+	Translation:
+		Gox:0.762
+		chinesische_Waehrung:0.746
+		TokioDie:0.743
+		Goldfonds:0.739
+		Oelkonzern_BP:0.734 
+	Gold: set(['abzubauen', 'Rupie']) 
+	Rank: 73
+
+Id: 330 Source: xXx 
+	Translation:
+		Schweiger-Tatort:0.699
+		Burka_Avenger:0.677
+		Ritter_Stark:0.674
+		Sharknado:0.666
+		Widerstand_zwecklos:0.660 
+	Gold: set(['XXX']) 
+	Rank: 38229
+
+Id: 331 Source: pica 
+	Translation:
+		Woran_erkenne:0.799
+		Hautprobleme:0.799
+		allergisch_reagieren:0.788
+		Verdauungsprobleme:0.788
+		Klinische_Bedeutung:0.785 
+	Gold: set(['Werden', 'Pica']) 
+	Rank: 72655
+
+Id: 332 Source: SIEMENS 
+	Translation:
+		Ubitricity:0.774
+		Technologieriesen:0.767
+		Tuev_Rheinland:0.766
+		Energieriesen_RWE:0.763
+		HUK_Coburg:0.751 
+	Gold: set(['Siemens']) 
+	Rank: 105
+
+Id: 333 Source: scruples 
+	Translation:
+		Gaengelei:0.807
+		Handschlagqualitaet:0.778
+		Berufsehre:0.777
+		Vertuschen:0.777
+		Felde_zieht:0.775 
+	Gold: set(['Skrupel']) 
+	Rank: 262
+
+Id: 334 Source: coordinate 
+	Translation:
+		koordinieren:0.797
+		Netzwerke_knuepfen:0.786
+		neu_justieren:0.766
+		koordiniere:0.765
+		Wege_aufzeigen:0.763 
+	Gold: set(['koordinieren']) 
+	Rank: 1
+
+Id: 335 Source: PARA 
+	Translation:
+		Helfergruppe:0.732
+		Infostand_vertreten:0.725
+		Werkstatt_Lebenshilfe:0.718
+		Soroptimisten:0.713
+		Generationenhilfe:0.710 
+	Gold: set(['Ziffer']) 
+	Rank: 547248
+
+Id: 336 Source: EIGHTY 
+	Translation:
+		14-_16-Jaehrigen:0.764
+		Camp-Teilnehmer:0.756
+		Campteilnehmer:0.743
+		Minilon:0.715
+		Morgens_halb:0.714 
+	Gold: set(['80']) 
+	Rank: 20556
+
+Id: 337 Source: LOVES 
+	Translation:
+		salopp_gesagt:0.796
+		Kram_passt:0.791
+		redet_Rage:0.791
+		vorgesetzt_bekommen:0.789
+		mault:0.788 
+	Gold: set(['Liebt']) 
+	Rank: 8386
+
+Id: 338 Source: EXPOSURE 
+	Translation:
+		Bild_colourbox:0.711
+		PR-Aktionen:0.675
+		brandaktuelle:0.669
+		genannten:0.649
+		Rundumversorgung:0.640 
+	Gold: set(['Exposition']) 
+	Rank: 227
+
+Id: 339 Source: Gill 
+	Translation:
+		Ex-Sportler:0.749
+		Spielman:0.697
+		Lillard:0.694
+		Sehr_Leidwesen:0.690
+		Ex-Boss:0.688 
+	Gold: set(['Gill']) 
+	Rank: 7286
+
+Id: 340 Source: HELLER 
+	Translation:
+		Foto_promo:0.840
+		TextFoto:0.836
+		Marc_Roehlig:0.804
+		Kaumanns:0.802
+		APAweb_Reuters:0.789 
+	Gold: set(['heller']) 
+	Rank: 434460
+
+Id: 341 Source: DIMENSIONS 
+	Translation:
+		Touristische_Nutzung:0.776
+		Lage_Charakteristik:0.771
+		Laufen_Gehen:0.761
+		inneren_Werten:0.757
+		Aussehen_Tragweise:0.748 
+	Gold: set(['Dimensionen']) 
+	Rank: 21607
+
+Id: 342 Source: cup 
+	Translation:
+		Extra-Portion:0.761
+		Post_abgehen:0.737
+		kuehles_Blondes:0.735
+		paar_Bierchen:0.723
+		Sportsachen:0.717 
+	Gold: set(['Weltmeisterschaft']) 
+	Rank: 6216
+
+Id: 343 Source: GIGABYTE 
+	Translation:
+		Stecker_gezogen:0.719
+		Yahoo-Chefin:0.685
+		Don_Mattrick:0.679
+		Dr_Steelhammer:0.659
+		Microsoft-Chef:0.654 
+	Gold: set(['Kostet', 'Gigabyte']) 
+	Rank: 82871
+
+Id: 344 Source: Hectares 
+	Translation:
+		gefoerderten_Wohnungen:0.721
+		Bio-Betriebe:0.715
+		Ausbildungsplaetze_unbesetzt:0.709
+		Agrarflaeche:0.698
+		Selbstwerber:0.691 
+	Gold: set(['Hektar']) 
+	Rank: 1294
+
+Id: 345 Source: PUNT 
+	Translation:
+		hinzuschmeissen:0.703
+		Duemmste:0.698
+		Schlimmste_passieren:0.671
+		miserables:0.666
+		lebensbedrohliche_Situation:0.645 
+	Gold: set(['Punt']) 
+	Rank: 61237
+
+Id: 346 Source: 4 
+	Translation:
+		6:0.765
+		7:0.759
+		8:0.751
+		Dressurreiterpruefung_Kl:0.727
+		Springprfg:0.714 
+	Gold: set(['4']) 
+	Rank: 1011
+
+Id: 347 Source: Guilders 
+	Translation:
+		All-inclusive:0.735
+		Nagel_gerissen:0.734
+		gesponsort:0.692
+		Novadent:0.691
+		SPENDE:0.682 
+	Gold: set(['Gulden']) 
+	Rank: 4624
+
+Id: 348 Source: FIFTEEN 
+	Translation:
+		eingetrudelt:0.737
+		Bad_Griesbacher:0.661
+		unterrichtsfrei:0.643
+		komplett_ausverkauft:0.616
+		vorgemerkt:0.603 
+	Gold: set(['15']) 
+	Rank: 4655
+
+Id: 349 Source: quire 
+	Translation:
+		fid_DER:0.799
+		Mich_beeindruckt:0.785
+		,Das:0.774
+		Adieu_sagen:0.762
+		regt_Nachdenken:0.753 
+	Gold: set(['Korrekte', '16-seitige']) 
+	Rank: 34390
+
+Id: 350 Source: TROIKA 
+	Translation:
+		transatlantische_Partnerschaft:0.765
+		US-Vizepraesident_Biden:0.764
+		russischen_Staatsfernsehen:0.763
+		Ende_Blutvergiessens:0.759
+		Gipfelerklaerung:0.758 
+	Gold: set(['Troika']) 
+	Rank: 12354
+
+Id: 351 Source: threes 
+	Translation:
+		Torchancen_erarbeiten:0.668
+		Doppelpaesse:0.663
+		schrammen:0.641
+		Beide_Abwehrreihen:0.637
+		einfache_Ballverluste:0.624 
+	Gold: set(['Drei']) 
+	Rank: 24807
+
+Id: 352 Source: Eib 
+	Translation:
+		Umso_dankbarer:0.742
+		Thiemel:0.722
+		Bugger:0.705
+		Stadtwerkeleiter:0.698
+		Gruendken:0.698 
+	Gold: set(['EIB']) 
+	Rank: 501001
+
+Id: 353 Source: Fermi 
+	Translation:
+		Umlauf_Masse:0.740
+		braut_zusammen:0.648
+		Atmosphaere_vergluehen:0.647
+		Sonnensystem_verlassen:0.637
+		Tokamaks:0.634 
+	Gold: set(['Fermi']) 
+	Rank: 557
+
+Id: 354 Source: pesetas 
+	Translation:
+		Peseten:0.658
+		festgeschriebene_Abloese:0.640
+		Immobile:0.616
+		spanische_Sportzeitung:0.610
+		Millionen_Pesos:0.592 
+	Gold: set(['Peseten']) 
+	Rank: 1
+
+Id: 355 Source: Difference 
+	Translation:
+		besseres_Miteinander:0.702
+		lautet_Credo:0.682
+		gelebtes:0.672
+		einfache_Formel:0.656
+		Vielfaeltiges:0.655 
+	Gold: set(['Unterschied']) 
+	Rank: 47
+
+Id: 356 Source: d 
+	Translation:
+		foto_archiv:0.788
+		LPI_Saalfeld:0.755
+		APA_DER:0.688
+		Meister_Vorsaison:0.606
+		0176:0.578 
+	Gold: set(['D']) 
+	Rank: 71
+
+Id: 357 Source: Links 
+	Translation:
+		Online-Welt:0.712
+		Internet-Blogs:0.711
+		Online-Netzwerke:0.702
+		Couchsurfing:0.698
+		Bloggerinnen:0.692 
+	Gold: set(['Verbindungen']) 
+	Rank: 339
+
+Id: 358 Source: TB 
+	Translation:
+		Immunschwaechekrankheit:0.809
+		HIV:0.770
+		Darmkeim:0.758
+		Alzheimer_Demenz:0.751
+		Tbc:0.750 
+	Gold: set(['TB', 'Tuberkulose']) 
+	Rank: 13
+
+Id: 359 Source: Fins 
+	Translation:
+		Entspannung_pur:0.754
+		Schietwetter:0.739
+		Lehser:0.725
+		Winterspeck:0.715
+		Bikinifigur:0.708 
+	Gold: set(['Haifischflossen']) 
+	Rank: 22357
+
+Id: 360 Source: t 
+	Translation:
+		hamma:0.651
+		KEIN:0.640
+		Kuerzer:0.615
+		xy:0.589
+		wos:0.569 
+	Gold: set(['T']) 
+	Rank: 26493
+
+Id: 361 Source: HM 
+	Translation:
+		Diekmanns:0.678
+		Designierter:0.648
+		Willem_Alexander:0.644
+		direkte_Vorgesetzte:0.642
+		Delphine_Boël:0.641 
+	Gold: set(['HM']) 
+	Rank: 13950
+
+Id: 362 Source: microgram 
+	Translation:
+		gm³:0.707
+		mgm³:0.699
+		mmol:0.697
+		550_°C:0.696
+		Acetonitril:0.694 
+	Gold: set(['Mikrogramm']) 
+	Rank: 269
+
+Id: 363 Source: Franc 
+	Translation:
+		Wirtschaftsminister_Pierre:0.701
+		Premier_Jean-Marc:0.674
+		Galliani:0.656
+		Joseph_Daul:0.649
+		Sapin:0.648 
+	Gold: set(['Franc']) 
+	Rank: 104
+
+Id: 364 Source: Lek 
+	Translation:
+		Asli:0.665
+		Guerkan:0.642
+		islaendischer_Name:0.628
+		Bild_OOeN:0.627
+		Yayla:0.627 
+	Gold: set(['Lek']) 
+	Rank: 595
+
+Id: 365 Source: Seventh 
+	Translation:
+		Luetzenhardter:0.587
+		Karfreitags:0.578
+		Mittagsstunde:0.563
+		Siebenten:0.551
+		Einheit:0.543 
+	Gold: set(['siebte', 'siebten']) 
+	Rank: 434
+
+Id: 366 Source: COLON 
+	Translation:
+		Aguayo:0.673
+		Piña:0.666
+		Yanez:0.662
+		Aguado:0.658
+		Ovidio:0.650 
+	Gold: set(['Darmkrebs']) 
+	Rank: 12841
+
+Id: 367 Source: Hl 
+	Translation:
+		Elector_GmbH:0.672
+		Haubrok:0.670
+		Bild_WBElke:0.643
+		FOLTIN_Jindrich:0.638
+		0177:0.638 
+	Gold: set(['Hl']) 
+	Rank: 124401
+
+Id: 368 Source: AMP 
+	Translation:
+		Asset_Manager:0.741
+		Ingo_Speich:0.690
+		Lloyd_Blankfein:0.684
+		Unterhaltungssparte:0.673
+		Diskont:0.654 
+	Gold: set(['amp']) 
+	Rank: 16043
+
+Id: 369 Source: anna 
+	Translation:
+		Francesca_Habsburg:0.749
+		Sechstklaesslerin:0.742
+		Nesrin:0.721
+		Sara_Kulka:0.714
+		Prinzessin_Maxima:0.708 
+	Gold: set(['Anna']) 
+	Rank: 6911
+
+Id: 370 Source: Watts 
+	Translation:
+		Smith:0.739
+		Khloe:0.727
+		McVay:0.723
+		Kelly:0.702
+		Lindstrom:0.698 
+	Gold: set(['Watts']) 
+	Rank: 100
+
+Id: 371 Source: baht 
+	Translation:
+		Ringgit:0.698
+		Aktueller_Kurs:0.672
+		2,9_Mio:0.664
+		Baht:0.662
+		umgerechnet:0.656 
+	Gold: set(['ab', 'Baht']) 
+	Rank: 4
+
+Id: 372 Source: Partition 
+	Translation:
+		Vertreibung_Ermordung:0.731
+		islamisieren:0.718
+		Verbrechen_Nationalsozialisten:0.702
+		arabische_Fruehling:0.697
+		sunnitischen_schiitischen:0.694 
+	Gold: set(['Teilung']) 
+	Rank: 35
+
+Id: 373 Source: yoke 
+	Translation:
+		geringere_Uebel:0.739
+		zusammenzuraufen:0.722
+		zaudern:0.720
+		einknickt:0.708
+		aufbegehren:0.700 
+	Gold: set(['Joch']) 
+	Rank: 496
+
+Id: 374 Source: Gram 
+	Translation:
+		Hundesalon:0.697
+		Beuschel:0.696
+		Scheiter:0.695
+		Gieraths:0.685
+		Daeuble:0.683 
+	Gold: set(['Gramm']) 
+	Rank: 73338
+
+Id: 375 Source: Bob 
+	Translation:
+		Robert:0.809
+		Paul:0.808
+		Mike:0.805
+		Tom:0.796
+		Frank:0.793 
+	Gold: set(['abgeordneten', 'bob']) 
+	Rank: 99678
+
+Id: 376 Source: Triads 
+	Translation:
+		Geschaeftemachern:0.733
+		Drogenhandel_Prostitution:0.730
+		terroristische_Bedrohung:0.729
+		korrupten_Politikern:0.727
+		Verbrecherbanden:0.724 
+	Gold: set(['Triaden']) 
+	Rank: 864
+
+Id: 377 Source: stone 
+	Translation:
+		heil_geblieben:0.743
+		vergammelten:0.739
+		Gartentisch:0.731
+		echter_Blickfang:0.719
+		Pusteblumen:0.717 
+	Gold: set(['stein']) 
+	Rank: 43332
+
+Id: 378 Source: Kroon 
+	Translation:
+		Unrau:0.778
+		Sprafke:0.769
+		Susen:0.769
+		Schaenzer:0.768
+		Leusing:0.768 
+	Gold: set(['gekoppelt', 'Krone', 'War', 'JETZT']) 
+	Rank: 59619
+
+Id: 379 Source: Zero 
+	Translation:
+		zurollt:0.722
+		Tempo-Limit:0.705
+		einzubremsen:0.689
+		Verfehlt:0.684
+		ueberdrehen:0.663 
+	Gold: set(['null']) 
+	Rank: 476
+
+Id: 380 Source: MIles 
+	Translation:
+		Foto_Promo:0.862
+		▪_stg:0.852
+		Peter_Cissek:0.848
+		Marcel_Hilbert:0.816
+		Brit_Wollschlaeger:0.812 
+	Gold: set(['Meilen']) 
+	Rank: 388414
+
+Id: 381 Source: cental 
+	Translation:
+		Altkreis_Hofgeismar:0.732
+		saniere:0.710
+		laermgeplagten:0.704
+		AK-Land:0.701
+		chronisch_unterfinanziert:0.693 
+	Gold: set(['zentralen']) 
+	Rank: 9383
+
+Id: 382 Source: block 
+	Translation:
+		Hintertuere:0.675
+		12012013:0.648
+		Stop_and:0.643
+		Kippt:0.641
+		blockieren:0.632 
+	Gold: set(['Blockieren']) 
+	Rank: 352
+
+Id: 383 Source: RAND 
+	Translation:
+		Kritische_Wuerdigung:0.780
+		Ueberwachungspraxis:0.754
+		Verfasser_Studie:0.736
+		Abhoerskandale:0.726
+		Ruestungsexportpolitik:0.725 
+	Gold: set(['Rand']) 
+	Rank: 356027
+
+Id: 384 Source: Heads 
+	Translation:
+		Nachtsitzungen:0.747
+		aufgeatmet:0.707
+		hiess_Regierungskreisen:0.702
+		Wirtschaftsbossen:0.700
+		Krisenstab_eingerichtet:0.698 
+	Gold: set(['staats-']) 
+	Rank: 112453
+
+Id: 385 Source: Two 
+	Translation:
+		etliche:0.688
+		mehrere:0.653
+		allesamt:0.647
+		Reihenweise:0.646
+		Zwei:0.634 
+	Gold: set(['Beiden', 'zwei']) 
+	Rank: 116
+
+Id: 386 Source: Ng 
+	Translation:
+		Beng:0.724
+		Keng:0.715
+		Jae:0.714
+		Kwok:0.714
+		Lee:0.714 
+	Gold: set(['Ng']) 
+	Rank: 42
+
+Id: 387 Source: GAME 
+	Translation:
+		Zockern:0.792
+		Big_Business:0.748
+		Gelddruckmaschine:0.726
+		Hoffung:0.715
+		Internetgiganten:0.714 
+	Gold: set(['Spiel']) 
+	Rank: 5216
+
+Id: 388 Source: DRam 
+	Translation:
+		Spritschlucker:0.792
+		Hybrid-Autos:0.784
+		Luxus-Autos:0.778
+		Steigende_Preise:0.778
+		wichtigen_US-Markt:0.775 
+	Gold: set(['AM', 'Preisverfall']) 
+	Rank: 537
+
+Id: 389 Source: Roubles 
+	Translation:
+		Rubel:0.684
+		unversteuert:0.680
+		Gasprom:0.673
+		Fluglinie_Aeroflot:0.643
+		Gazprom:0.638 
+	Gold: set(['Rubel']) 
+	Rank: 1
+
+Id: 390 Source: GRAY 
+	Translation:
+		Perman:0.721
+		Joleen:0.721
+		Anderson:0.707
+		Vater-Sohn-Gespann:0.702
+		Jon_FurnissInvisionAP:0.702 
+	Gold: set(['Gray']) 
+	Rank: 3756
+
+Id: 391 Source: gis 
+	Translation:
+		Baladi:0.603
+		Mech:0.582
+		Mates:0.574
+		Aka:0.563
+		Tang_Soo:0.563 
+	Gold: set(['angaben']) 
+	Rank: 589971
+
+Id: 392 Source: TEN 
+	Translation:
+		Muenchner_Privatsender:0.642
+		Unterfoehring_ots:0.635
+		Rekordquote:0.631
+		ZuseherInnen:0.622
+		TV-Saison:0.610 
+	Gold: set(['zehn']) 
+	Rank: 8082
+
+Id: 393 Source: Frequencies 
+	Translation:
+		Frequenzen_Programme:0.756
+		Handygespraeche:0.744
+		Pollenbelastung:0.711
+		TV-Konsum:0.709
+		riesige_Datenmengen:0.703 
+	Gold: set(['Frequenzen']) 
+	Rank: 89
+
+Id: 394 Source: Hand 
+	Translation:
+		freundlich_laechelnd:0.758
+		Watschen:0.756
+		herumspielen:0.750
+		Knochen_brechen:0.750
+		wegzuwischen:0.743 
+	Gold: set(['einerseits', 'Andererseits']) 
+	Rank: 164755
+
+Id: 395 Source: NUMBERS 
+	Translation:
+		Facebook-Likes:0.707
+		BILDde-Leser:0.703
+		Waehler_unentschlossen:0.680
+		Wettquoten:0.662
+		Twitter-Follower:0.653 
+	Gold: set(['Zahl']) 
+	Rank: 295
+
+Id: 396 Source: Microns 
+	Translation:
+		LED-Lampe:0.720
+		Senseo:0.699
+		Fruehjahrsmode:0.698
+		LED-Laempchen:0.696
+		Brotdosen:0.693 
+	Gold: set(['Mikrometern', 'Haben', 'Staubpartikel', 'schwebenden']) 
+	Rank: 11460
+
+Id: 397 Source: litai 
+	Translation:
+		Rettungsfonds_EFSF:0.766
+		Staatsbank_KfW:0.762
+		refundiert:0.753
+		Netzgebuehren:0.746
+		Wachstumsfonds:0.745 
+	Gold: set(['Trieben']) 
+	Rank: 480509
+
+Id: 398 Source: CIRCULATION 
+	Translation:
+		Spartipps:0.795
+		−_eb:0.765
+		Woher_stammen:0.763
+		Bienewald:0.750
+		raten_Verbraucherschuetzer:0.744 
+	Gold: set(['Umlauf']) 
+	Rank: 1509
+
+Id: 399 Source: FEN 
+	Translation:
+		Krebsstiftung:0.639
+		Mother_Jones:0.626
+		Nicht-Regierungsorganisation:0.618
+		IM_Notar:0.617
+		Alternativer_Nobelpreis:0.612 
+	Gold: set(['Fen']) 
+	Rank: 54342
+
+Id: 400 Source: XXIX 
+	Translation:
+		Hofer_Freiheitshalle:0.724
+		Einheitsfeier:0.714
+		Tag_Kusses:0.711
+		lautete_Ueberschrift:0.707
+		Deutschlandfest_SPD:0.695 
+	Gold: set(['XXIX']) 
+	Rank: 6937
+
+Id: 401 Source: link 
+	Translation:
+		Versorgung_schnellem:0.710
+		Mailverkehr:0.681
+		Verknuepfung:0.660
+		Verbindung:0.655
+		ueberwache:0.654 
+	Gold: set(['Verbindung']) 
+	Rank: 4
+
+Id: 402 Source: Balance 
+	Translation:
+		vernuenftigem:0.676
+		Betonen:0.666
+		darueber_hinausgeht:0.655
+		Einlassen:0.638
+		Gesamtgefuege:0.636 
+	Gold: set(['Gleichgewicht']) 
+	Rank: 25
+
+Id: 403 Source: THIRDS 
+	Translation:
+		campierte:0.579
+		British_Legion:0.578
+		Cliffords:0.578
+		William_Wilberforce:0.576
+		Lady_Jane:0.566 
+	Gold: set(['drittel']) 
+	Rank: 98398
+
+Id: 404 Source: quetzal 
+	Translation:
+		Traumstraende:0.701
+		Wale_Delfine:0.688
+		Traumstrand:0.686
+		Tomatenschlacht:0.682
+		afrikanischen_Savanne:0.679 
+	Gold: set(['Quetzal']) 
+	Rank: 54
+
+Id: 405 Source: REIS 
+	Translation:
+		Verband_Berlin-Brandenburgischer:0.699
+		Gewofag:0.695
+		ElitePartner:0.692
+		Pestel-Institut:0.682
+		Empirica:0.680 
+	Gold: set(['Indem', 'erinnere', 'Reis']) 
+	Rank: 498617
+
+Id: 406 Source: LEI 
+	Translation:
+		Konsumforscher:0.719
+		Arbeitsmarktexperten:0.717
+		FundResearch:0.705
+		Opaschowski:0.698
+		Optimistischer:0.693 
+	Gold: set(['WIE']) 
+	Rank: 39819
+
+Id: 407 Source: milligrams 
+	Translation:
+		Stueck_Wuerfelzucker:0.782
+		100_Milliliter:0.766
+		500_Milliliter:0.765
+		halber_Liter:0.756
+		50_mg:0.755 
+	Gold: set(['MG', 'Milligramm']) 
+	Rank: 7
+
+Id: 408 Source: pula 
+	Translation:
+		aegyptische_Pfund:0.741
+		Tankrechnung:0.737
+		Fernsehgeld:0.727
+		Yuan_umgerechnet:0.723
+		Staatsanleihen_Immobilienpapiere:0.713 
+	Gold: set(['Bleiben', 'Muss', 'Pula', 'erhalten']) 
+	Rank: 30893
+
+Id: 409 Source: Volt 
+	Translation:
+		Sparsamer:0.765
+		Batterie_leer:0.751
+		Plug-in-Hybriden:0.743
+		Plug-in-Hybride:0.734
+		selbstfahrenden_Autos:0.730 
+	Gold: set(['Verlegen', 'Beabsichtigt']) 
+	Rank: 68381
+
+Id: 410 Source: Pascal 
+	Translation:
+		Michon:0.774
+		Pierre:0.767
+		Le_Gall:0.757
+		Jean:0.755
+		Gaëtan:0.755 
+	Gold: set(['Pascal']) 
+	Rank: 7865
+
+Id: 411 Source: agora 
+	Translation:
+		Gemaess_Motto:0.705
+		heiligen_Hallen:0.681
+		Kulturelle_Einrichtungen:0.655
+		Virtuell:0.651
+		kulinarische_Vielfalt:0.644 
+	Gold: set(['Agora']) 
+	Rank: 92
+
+Id: 412 Source: LEV 
+	Translation:
+		Technische_Merkmale:0.767
+		Aussehen_Merkmale:0.758
+		Maschinenanlage_Antrieb:0.724
+		Vahland:0.713
+		Alternative_Antriebe:0.691 
+	Gold: set(['Lew']) 
+	Rank: 448358
+
+Id: 413 Source: drachmas 
+	Translation:
+		Firmenkasse:0.682
+		500-Euro-Schein:0.680
+		Phrasenschwein:0.675
+		Konto_ueberwiesen:0.666
+		Sparkonto:0.664 
+	Gold: set(['Drachmen']) 
+	Rank: 18
+
+Id: 414 Source: Six 
+	Translation:
+		siehe_Info-Box:0.759
+		vier:0.754
+		drei:0.752
+		zwei:0.735
+		insgesamt:0.649 
+	Gold: set(['Sechs']) 
+	Rank: 104
+
+Id: 415 Source: Ts 
+	Translation:
+		T-_Shirts:0.659
+		Sendungstitel:0.598
+		knalligem:0.596
+		Startzeichen:0.581
+		Einser:0.559 
+	Gold: set(['T']) 
+	Rank: 43757
+
+Id: 416 Source: Cent 
+	Translation:
+		Madonna_54:0.737
+		Soul-Diva:0.707
+		Taylor_Kinney:0.699
+		Teenie-Stars:0.685
+		Saubermann-Image:0.682 
+	Gold: set(['%', 'Prozent']) 
+	Rank: 82541
+
+Id: 417 Source: fellow 
+	Translation:
+		Mut_zugesprochen:0.760
+		klaren_Ansagen:0.740
+		Euphorisch:0.740
+		platzte_Kragen:0.708
+		aufgemuntert:0.708 
+	Gold: set(['Kolleginnen', 'Kollegen']) 
+	Rank: 8
+
+Id: 418 Source: as 
+	Translation:
+		Auch:0.686
+		mittelpraechtig:0.676
+		Kompletter:0.664
+		Ernuechternd:0.647
+		So:0.642 
+	Gold: set(['WIE', 'ALS']) 
+	Rank: 2458
+
+Id: 419 Source: km 
+	Translation:
+		Bever-Talsperre:0.710
+		Geschwindigkeitskontrollen_durchgefuehrt:0.710
+		Stundenkilometer_begrenzt:0.708
+		Bahnhof_Brétigny-sur-Orge:0.700
+		190_Kilometern:0.694 
+	Gold: set(['km']) 
+	Rank: 775
+
+Id: 420 Source: DAG 
+	Translation:
+		gefaxt:0.680
+		rueckversichert:0.669
+		wegen_irrefuehrender:0.659
+		unbegruendet_zurueckgewiesen:0.640
+		abgebe:0.639 
+	Gold: set(['DAG']) 
+	Rank: 6286
+
+Id: 421 Source: Dividends 
+	Translation:
+		Staerkung_Eigenkapitals:0.793
+		Steuerzahlen:0.791
+		Altkunden:0.788
+		Riester-Vertraege:0.783
+		staatlichen_Zulagen:0.781 
+	Gold: set(['Dividenden']) 
+	Rank: 560
+
+Id: 422 Source: Million 
+	Translation:
+		drauflegt:0.762
+		kostende:0.706
+		hinblaettern:0.683
+		sechsstelliger:0.651
+		Kostet:0.641 
+	Gold: set(['Millionen']) 
+	Rank: 126
+
+Id: 423 Source: Quota 
+	Translation:
+		EU-Fiskalpakt:0.775
+		Vermoegensbesteuerung:0.774
+		Leih-_Zeitarbeit:0.767
+		gesetzliche_Mindestloehne:0.766
+		Entgeltgleichheitsgesetz:0.764 
+	Gold: set(['Quote']) 
+	Rank: 4695
+
+Id: 424 Source: multipliers 
+	Translation:
+		Marktrisiken:0.716
+		Verwandte_Themen:0.715
+		Realer:0.694
+		Volatilitaeten:0.685
+		Bonus-:0.683 
+	Gold: set(['Multiplikatoren']) 
+	Rank: 14453
+
+Id: 425 Source: EleVen 
+	Translation:
+		Still_heimlich:0.745
+		Pariser_Modewoche:0.722
+		Echte_Liebe:0.717
+		zurueckgesteckt:0.680
+		trendig:0.670 
+	Gold: set(['elf']) 
+	Rank: 199505
+
+Id: 426 Source: 5 
+	Translation:
+		:0.693
+		Abendkarte:0.688
+		10:0.683
+		ermaessigt_2,50:0.682
+		Vorverkaufspreis:0.681 
+	Gold: set(['5']) 
+	Rank: 2086
+
+Id: 427 Source: aT 
+	Translation:
+		___:0.714
+		struct:0.671
+		WHERE:0.652
+		WENN:0.627
+		=_Zurueckgezogen:0.620 
+	Gold: set(['Auf']) 
+	Rank: 351323
+
+Id: 428 Source: Nineteen 
+	Translation:
+		Zwoelf:0.681
+		Sieben:0.671
+		Acht:0.666
+		Neun:0.657
+		regelrechten_Ansturm:0.652 
+	Gold: set(['19', 'Neunzehn']) 
+	Rank: 242
+
+Id: 429 Source: KGs 
+	Translation:
+		Alttextilien:0.710
+		Recyclinghoefen:0.692
+		Kleinmengen:0.689
+		Kfz-Haftpflicht:0.680
+		Pelletheizungen:0.679 
+	Gold: set(['KG']) 
+	Rank: 127555
+
+Id: 430 Source: games 
+	Translation:
+		gevotet:0.777
+		Basketball-Fans:0.720
+		gute_Vorsaetze:0.717
+		Spassveranstaltung:0.711
+		Bundesliga-Stadien:0.693 
+	Gold: set(['spiele']) 
+	Rank: 2015
+
+Id: 431 Source: Lea 
+	Translation:
+		Darleen:0.779
+		Seyboldt:0.768
+		Fitness-Trainerin:0.765
+		BILD-Reporterin:0.761
+		Smilla:0.761 
+	Gold: set(['Lea']) 
+	Rank: 703
+
+Id: 432 Source: nanograms 
+	Translation:
+		Blutalkoholgehalt:0.711
+		THC-Gehalt:0.699
+		tolerierbare:0.691
+		toxikologisch:0.690
+		PH-Wert:0.689 
+	Gold: set(['Nanogramm']) 
+	Rank: 252
+
+Id: 433 Source: Metre 
+	Translation:
+		Nationale_Erfolge:0.683
+		geschippert:0.682
+		reiner_Muskelkraft:0.678
+		Bewaffnung_Elektronik:0.667
+		Stahlkoloss:0.666 
+	Gold: set(['meter']) 
+	Rank: 60477
+
+Id: 434 Source: AU 
+	Translation:
+		westafrikanischen_Wirtschaftsgemeinschaft:0.748
+		Afisma:0.746
+		Ecowas:0.741
+		Mali-Mission:0.738
+		G-7:0.738 
+	Gold: set(['AU']) 
+	Rank: 37
+
+Id: 435 Source: QUARTER 
+	Translation:
+		Ferienmonat_August:0.706
+		Stadtweit:0.700
+		Ostergeschaeft:0.684
+		statistisch_betrachtet:0.680
+		sprunghaft_gestiegen:0.677 
+	Gold: set(['Viertel']) 
+	Rank: 35
+
+Id: 436 Source: MILLIONS 
+	Translation:
+		Grundsicherung_angewiesen:0.718
+		unversicherte:0.706
+		Niedrigloehner:0.678
+		deutschen_Schlachthoefen:0.670
+		befristet_Beschaeftigte:0.669 
+	Gold: set(['Millionen']) 
+	Rank: 605
+
+Id: 437 Source: Kilometre 
+	Translation:
+		Ausdehnung_Gebiets:0.691
+		Busbucht:0.649
+		Ausdehnung_Gemeindegebietes:0.638
+		algerischen_Grenze:0.638
+		griechischen_Inseln:0.630 
+	Gold: set(['Kilometer']) 
+	Rank: 7666
+
+Id: 438 Source: e 
+	Translation:
+		Vernetzt:0.724
+		EyeEm:0.723
+		Self-Publishing:0.718
+		Internet-Dienst:0.715
+		Moocs:0.715 
+	Gold: set(['e']) 
+	Rank: 18615
+
+Id: 439 Source: CENTURIES 
+	Translation:
+		Moderne_Rezeption:0.755
+		junger_Wilder:0.751
+		Kultur_Teckbote:0.750
+		Backkunst:0.738
+		britischen_Monarchie:0.735 
+	Gold: set(['Jahrhunderten', 'Jahrhunderte']) 
+	Rank: 2061
+
+Id: 440 Source: Ar 
+	Translation:
+		foer_de:0.729
+		haa:0.716
+		jens:0.709
+		derf:0.706
+		dat_is:0.705 
+	Gold: set(['AR']) 
+	Rank: 79968
+
+Id: 441 Source: Quartets 
+	Translation:
+		Bunt_gemischt:0.760
+		Magische_Momente:0.754
+		zweistuendiges_Programm:0.741
+		Mini-Schramberg:0.725
+		Begeisterter_Applaus:0.724 
+	Gold: set(['Des']) 
+	Rank: 17972
+
+Id: 442 Source: ternary 
+	Translation:
+		Mathematische_Definition:0.791
+		Vorstellbar_waere:0.750
+		Allgemeine_Beschreibung:0.741
+		Definition_GSSP:0.739
+		Ueberschaubare:0.723 
+	Gold: set(['ab']) 
+	Rank: 347922
+
+Id: 443 Source: megawatt 
+	Translation:
+		Windkraft-Anlagen:0.754
+		Millionen-Investition:0.749
+		Stromautobahn:0.729
+		Ausbau_Glasfasernetzes:0.717
+		Energiekonzerns_Vattenfall:0.713 
+	Gold: set(['Megawatt']) 
+	Rank: 798
+
+Id: 444 Source: SCHILLING 
+	Translation:
+		BZ-Gespraech:0.761
+		Alimi:0.757
+		Fussek:0.752
+		Dzemski:0.747
+		Laesch:0.741 
+	Gold: set(['Schilling']) 
+	Rank: 110637
+
+Id: 445 Source: SEVENTY 
+	Translation:
+		Nick_DAloisio:0.692
+		jugendlichen_Straftaeter:0.670
+		Schufterei:0.631
+		arbeitssuchende:0.630
+		Essensmarken:0.627 
+	Gold: set(['siebzig', '70']) 
+	Rank: 6182
+Corrected: 100
+Total extra elements, Test(445) + Additional:545
+Prec@1: 0.018
+Prec@5: 0.049
+Prec@10: 0.072
+Printing mapped vectors: ./translated_vecs
