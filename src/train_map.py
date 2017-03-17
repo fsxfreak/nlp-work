@@ -46,6 +46,7 @@ def train(en_mdl, de_mdl, pair_filename):
   W_out = None
 
   # training
+  '''
   with tf.Session() as sess:
     sess.run(tf.initialize_all_variables())
 
@@ -64,16 +65,15 @@ def train(en_mdl, de_mdl, pair_filename):
           print(epoch, i, 'Training %s' % pair_filename, W_out)
           print(epoch, i, 'bias: ' % bias_out)
 
-    saver.save(sess, '../../saved-models/model-%s.ckpt' % pair_filename.replace('.', '_').replace('/', '_'))
-
-  # performance test set, also vary epochs
-
+    saver.save(sess, '../saved-models/model-%s.ckpt' % pair_filename.replace('.', '_').replace('/', '_'))
   '''
+
+  # TODO performance test set, also vary epochs
+
   # loading
   with tf.Session() as sess:
     saver.restore(sess, '../saved-models/model-%s.ckpt' % pair_filename.replace('.', '_').replace('/', '_'))
     W_out = sess.run(W)
-  '''
 
   print('Completed translation matrix on %s.' % pair_filename)
   return W_out

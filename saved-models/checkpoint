@@ -1,0 +1,2 @@
+model_checkpoint_path: "model-___data_en-de-available-number_dict.ckpt"
+all_model_checkpoint_paths: "model-___data_en-de-available-number_dict.ckpt"
