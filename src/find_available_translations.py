@@ -17,13 +17,15 @@ def main():
   # does not ever find the phrases for which there are underscores.
   with open('../data/en-de.dict', 'r') as f:
     for line in f:
-      words = line.split()
-      if words[0] not in lower_dict_en_vocab or words[1] not in lower_dict_de_vocab:
+      words = line.split('|||')
+
+      src = words[0].strip().lower()
+      trg = words[1].strip().lower()
+
+      if src not in lower_dict_en_vocab or trg not in lower_dict_de_vocab:
         continue
-    
-      print(lower_dict_en_vocab[words[0]], lower_dict_de_vocab[words[1]], words[2])
-      out_f.write('%s %s\n' % (lower_dict_en_vocab[words[0]], lower_dict_de_vocab[words[1]]))
-  pass
+      
+      out_f.write('%s %s\n' % (lower_dict_en_vocab[src], lower_dict_de_vocab[trg]))
 
 if __name__ == '__main__':
   main()
