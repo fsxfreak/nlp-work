@@ -4,12 +4,12 @@ def main():
   try:
     filename = sys.argv[1]
   except IndexError:
-    filename = 'en-de.dict.raw'
+    filename = 'en-it.dict.raw'
 
   references = {}
 
-  errors = open('en-de.dict.errors', 'w')
-  translations = open('en-de.dict', 'w')
+  errors = open('en-it.dict.errors', 'w')
+  translations = open('en-it.dict', 'w')
 
   with open(filename, 'r') as f:
     pattern_see = re.compile(r"(?P<src>.*)\s[{].*SEE[:]\s(?P<trg>.*)\s::")
