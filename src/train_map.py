@@ -3,7 +3,8 @@ import numpy as np
 import pandas as pd
 from gensim.models.keyedvectors import KeyedVectors
 
-import time
+import time, math, random, string
+print(random.__file__)
 
 def timeit(method):
     def timed(*args, **kw):
@@ -22,6 +23,7 @@ class Trainer(object):
 
   _VEC_SHAPE = (1,300)
   _MAP_SHAPE = (300,300)
+  _NUM_NEG = 10# k, Lazaridou et. al, 2015
 
   @timeit
   def __init__(self, train_filename, test_filename):
@@ -65,34 +67,78 @@ class Trainer(object):
 
     y_hat = tf.matmul(x, W, name='y_hat')
 
+    '''
     reg_losses = tf.get_collection(tf.GraphKeys.REGULARIZATION_LOSSES)
-    loss = (tf.reduce_mean(tf.squared_difference(y_hat, y),name='loss') 
+    loss = (tf.reduce_sum(tf.squared_difference(y_hat, y),name='loss') 
               + 0.01 * sum(reg_losses))
+    '''
+    negs = [ tf.placeholder(tf.float32, 
+                            shape=self._VEC_SHAPE, 
+                            name='y_%d' % i) for i in range(self._NUM_NEG) ]
 
-    minimizer = (tf.train.GradientDescentOptimizer(0.50)
+    def dist(t1, t2):
+      return tf.divide(tf.acos(
+                       tf.divide(tf.reduce_sum(tf.multiply(t1, t2)), 
+                       tf.multiply(tf.norm(t1), tf.norm(t2)))
+                       ),
+                       tf.constant(math.pi))
+
+
+    gamma = tf.constant(0.75)
+    loss = tf.reduce_sum(tf.stack(
+            [ tf.maximum(tf.zeros(shape=()), tf.add(gamma,
+                         tf.subtract(dist(y_hat, y), 
+                                     dist(y_hat, neg)))) for neg in negs ]))
+    minimizer = (tf.train.GradientDescentOptimizer(0.005)
                          .minimize(loss))
     sess = tf.Session()
 
     self.tf_g = {
-      'x' : x, 'y' : y, 'W' : W, 'y_hat' : y_hat,
-      'reg_losses' : reg_losses,
+      'x' : x, 'y' : y, 'W' : W, 'y_hat' : y_hat, 'negs' : negs,
+      #'reg_losses' : reg_losses,
       'loss' : loss,
       'minimizer' : minimizer,
       'sess' : sess
     }
     self.tf_g['sess'].run(tf.global_variables_initializer())
 
+    for t in tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES):
+      print(t.name)
+
   def train_step(self):
     for src, trg in self.train_labels:
       src_vec = src[1]
       trg_vec = trg[1]
-      _, loss = self.tf_g['sess'].run(
-                       [ self.tf_g['minimizer'], self.tf_g['loss'] ],
-                       feed_dict={
-                         self.tf_g['x'] : src_vec,
-                         self.tf_g['y'] : trg_vec
-                       })
-    print(loss)
+
+      feed_dict = {
+          self.tf_g['x'] : src_vec,
+          self.tf_g['y'] : trg_vec
+          }
+
+      W = self.tf_g['sess'].run(self.tf_g['W'])
+      # cannot obtain from Session.run() because have not fed the new src_vec yet
+      y_hat = np.matmul(src_vec, W).T
+      y_hat.shape = (300,)
+
+      def cos_vec(v1, v2):
+        return np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
+
+      scores = []
+      # randomly sample 4x num vectors for the negative examples
+      for e in range(self._NUM_NEG * 4):
+        seed = ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(15))
+        neg_poss = self.trg_mdl.seeded_vector(seed)
+
+        score = cos_vec(y_hat, neg_poss) - cos_vec(trg_vec, neg_poss) 
+        scores.append((score, neg_poss))
+      scores = sorted(scores, key=lambda tup: tup[0], reverse=True)
+
+      for i, neg in enumerate(self.tf_g['negs']):
+        feed_dict[neg] = self.trg_mdl[scores[i][0]]
+        _, loss = self.tf_g['sess'].run(
+                         [ self.tf_g['minimizer'], self.tf_g['loss'] ],
+                         feed_dict=feed_dict)
+    return loss
 
   def evaluate(self):
     W = self.tf_g['sess'].run(self.tf_g['W'])
@@ -130,11 +176,17 @@ def main():
   trainer.evaluate()
   '''
 
-  print('Testing animal on animal train')
+  print('Testing number on number train')
   trainer = Trainer('../data/en-de-available-number-train.dict',
                     '../data/en-de-available-number-test.dict')
-  for x in range(10):
-    trainer.train_step()
+  old_loss = trainer.train_step()
+  print('loss', old_loss)
+  while True:
+    new_loss = trainer.train_step()
+    print('loss', new_loss)
+    if abs(old_loss - new_loss) < 0.001:
+      break
+    old_loss = new_loss
   trainer.evaluate()
 
 if __name__ == '__main__':
